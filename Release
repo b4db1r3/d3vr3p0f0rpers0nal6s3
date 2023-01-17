@@ -1,8 +1,8 @@
-Origin: Reposi3
-Label: Reposi3
+Origin: b4db1r3
+Label: Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Reposi3 - a cydia repo template
+Description: My Personal iOS Tweak Dev Journey Repo That I Decided To Share With The World
