@@ -1,0 +1,8 @@
+Origin: d3vr3p0
+Label: TweakDevRepo 
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: d3vr3p0.github 
