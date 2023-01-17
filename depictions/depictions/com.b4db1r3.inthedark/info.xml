@@ -1,0 +1,23 @@
+<package>
+	<id>com.b4db1r3.inthedark.deb</id>
+	<name>InTheDark</name>
+	<version>0.1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>15</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>This tweak will disable Spotlight on main LS view.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
