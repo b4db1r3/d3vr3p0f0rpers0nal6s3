@@ -1,18 +1,18 @@
 <packageInfo>
-    <bundleId>ch.mdaus.exampletweak</bundleId>
-    <name>Example Tweak</name>
-    <version>0.0.2</version>
+    <bundleId>com.b4db1r3</bundleId>
+    <name>RGProud</name>
+    <version>0.1</version>
     <descriptions>
         <description>
-            An example package for testing out our personal Cydia repository
+            Like A LightTraffic Without The Yellow
         </description>
         <description>
-            This is just a bit more detail about what the tweak does... nothing :)
+            This tweak will color the proud lock in red while unauthenticated and in green while authenticated, can also reposition the proud lock where ever you want. 
         </description>
     </descriptions>
     <compatibility>
-        <miniOS>11.0</miniOS>
-        <maxiOS>11.1.2</maxiOS>
+        <miniOS>14</miniOS>
+        <maxiOS>16</maxiOS>
     </compatibility>
     <dependencies>
         <dependency>mobilesubstrate</dependency>
@@ -21,8 +21,8 @@
     <changelog>
         <change>
             <changeVersion>V0.0.2 </changeVersion>
-            <changeDescription>An important change</changeDescription>
-            <changeDescription>Another important change</changeDescription>
+            <changeDescription>just a test</changeDescription>
+            <changeDescription>46420</changeDescription>
         </change>
         <change>
             <changeVersion>V0.0.1</changeVersion>
