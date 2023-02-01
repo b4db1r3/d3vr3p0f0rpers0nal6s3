@@ -1,8 +1,8 @@
 Package: ccom.b4db1r3.rgproud
-Version: 1.0.1
+Version: 0.1
 Architecture: iphoneos-arm
-Maintainer: b4db14d
-Filename: ./debs//com.b4db1r3.rgproud.deb
+Maintainer: b4db1rd
+Filename: ./debs/com.b4db1r3.rgproud.deb
 Size: 633958
 Section: Tweaks
-Author: 4db1r3
+Author: b4db1rd
