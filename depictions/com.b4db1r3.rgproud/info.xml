@@ -14,15 +14,13 @@
         <miniOS>14</miniOS>
         <maxiOS>16</maxiOS>
     </compatibility>
-    <dependencies>
-        <dependency>mobilesubstrate</dependency>
-        <dependency>some other dependency</dependency>
-    </dependencies>
     <changelog>
         <change>
-            <changeVersion>V0.0.2 </changeVersion>
-            <changeDescription>just a test</changeDescription>
-            <changeDescription>46420</changeDescription>
+            <changeVersion>V0.0.2-1</changeVersion>
+            <changeDescription>Bump Version Number</changeDescription>
+            <changeDescription>Fixed Some Code Logics</changeDescription>
+            <changeDescription>Added Proper Description</changeDescription>
+
         </change>
         <change>
             <changeVersion>V0.0.1</changeVersion>
