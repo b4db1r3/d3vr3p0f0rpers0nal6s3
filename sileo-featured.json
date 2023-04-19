@@ -1,12 +1,12 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{296, 148}",
-  "itemCornerRadius": 10,
+  "itemSize": "{300, 150}",
+  "itemCornerRadius": 15,
   "banners": [
     {
         "url": "https://raw.githubusercontent.com/localdevice/repo.me/master/assets/Banners/RepoHeader.png",
-        "title": "Gay",
-        "package": "faith.jasons.samplepackage",
+        "title": "RGProud",
+        "package": "com.b4db1r3.rgproud",
         "hideShadow": false
     }
   ]
