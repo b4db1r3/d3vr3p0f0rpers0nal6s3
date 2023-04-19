@@ -1,7 +1,7 @@
 {
 	"minVersion": "0.1",
 	"headerImage": "https://raw.githubusercontent.com/localdevice/repo.me/master/assets/Banners/RepoHeader.png",
-	"tintColor": "#ffae8e",
+	"tintColor": "#BF55EC",
 	"tabs": [
 		{
 			"tabname": "Details",
