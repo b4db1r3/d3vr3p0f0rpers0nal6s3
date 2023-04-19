@@ -16,3 +16,21 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.rgpro
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.rgproud/depiction.json
 Author: b4db1r3
 
+Package: com.b4db1r3.rgproud
+Architecture: iphoneos-arm64
+Version: 0.0.2-1
+Section: Tweaks (LockScreen)
+Maintainer: b4db1r3
+Installed-Size: 392
+Filename: ./debians/com.b4db1r3.rgproud_Rootless.deb
+Size: 20634
+MD5sum: 7a183a0b26bdfecc1cd01752797ed5b7
+SHA1: dd04de3b8f7c8f464c7a4910a9ec768f26ceb0f7
+SHA256: 69d53369fd3492a2397e5b60cf9c2b00b80b497c466b9d33e4777a50f732d9e6
+SHA512: b3b4a7bf1dab0d6075a1a1313c3de63eac1ffbbc920be76d3ecc8de3436d9625bb5144362189cce3b9b321fc9f6fbb9c89ec38f6327d79605ad3a1c801f122f5
+Description: Red for unautenticated, green for autenticated
+Name: RGProud
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.rgproud
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.rgproud/depiction.json
+Author: b4db1r3
+
