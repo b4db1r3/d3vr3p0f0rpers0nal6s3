@@ -1,0 +1,9 @@
+<repo>
+    <footerlinks>
+        <link>
+            <name>Follow me on SoundCloud</name>
+            <url>https://soundcloud.com</url>
+            <iconclass>glyphicon glyphicon-user</iconclass>
+        </link>
+    </footerlinks>
+</repo>

@@ -1,273 +1,211 @@
-# Maxwell Dausch's Example Cydia Repository
+<p align="center">
+  <img align=center src="https://i.imgur.com/RcY9qnM.png" alt="Logo" height="300">
+</p>
 
-This is a shell template for creating your own Cydia repository so you can host your own tweaks and themes
+repo.me is denoted to be a community colloborated standard for incipient tweak developers. To provide ease on maintaining a personal repository and show your developments to the community.</br>
+This template contains samples on how you can easily make depiction pages without replicating your HTML pages.</br>
+The Cydia pages are styled using [Bootstrap](https://getbootstrap.com), and the Sileo pages are styled using JavaScript Object Notation (JSON).</br>
+If you use web depictions / Reposi3, Sileo now converts web depictions to native depictions in **realtime**.
 
-The layout of this repo is very similar to the version I have running on my own repo, [mdaus.ch/repo](www.mdaus.ch/repo)
-I have uploaded a copy of this example repository to [mdausch.github.com](mdausch.github.com) if you want to test it out there as well, but I promise you as of right now at least, its going to look very similar to my main repo.
+This guide does **NOT** cover creating .deb files, _but will briefly cover assiging depictions_, please do not ask about debian files, that is for development. This is simply here to get you started on making a base APT repository.
 
-## Prerequisites
-You will need a Mac or Linux system to create the repo on. This is possible using Windows, but is more tedious, and I will not be getting into it right now, this may be added later on though.
+Found something that can be improved? Found a mistake? Please do make a pull request!
+<a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
 
+### Steps for repo.me setup and usage
 
-### If you are using a Mac, you will need:
-* [Homebrew](brew.sh) - This is a package manager for Mac. If you don't have this already, paste the line below into your terminal:
+### 1. APT-FTPArchive
+
+You **must** have apt-ftparchive on your operating system to utilize repo.me. 
+
+This can be solved on Windows via WSL. My subsystem OS is Debian, which I know does contain apt-ftparchive. 
+
+This can be solved on macOS via Diatrus' precompiled version if you use brew (downloaded and set perms automatically via `updaterepo.sh`) or by installing `apt-utils` from Procursus. 
+
+For iOS / iPadOS, you'll need `apt-utils` on the Procursus repository (Elucubratus support is unknown as of now).</br>
+
+You **must** have `wget, zstd, & xz` installed on macOS. The script will automatically check for homebrew / Procursus installation and dependencies, if not found,
+don't worry, everything will be taken care of for you.</br>
+
+### 2. Download / Fork repo.me
+
+If you are _not_ hosting your repo on [GitHub Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/localdevice/repo.me/archive/master.zip) and extract to a subfolder on your website.
+
+There are 2 options for those using [GitHub Pages](https://pages.github.com/).
+
+A. If you want to use your root `username.github.io` as your repo, fork this repo and rename it to `username.github.io`. So when adding it in your Package Manager of choice, use `https://username.github.io`.
+
+B. If you want to use a subfolder for your existing `username.github.io` as your repo (example `username.github.io/repo`), fork this repo and rename it to `repo`. So when adding it in your Package Manager of choice, use `https://username.github.io/repo`.
+
+You can change `repo` to anything you want, like `sileo` for example. So your repo URL would be `https://username.github.io/sileo`.
+
+### 3. Personalization
+
+**Release File**
+
+Modify `repo.conf` in `./assets/repo` by changing the labels pointed by `<--`: </br>
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-*  DPKG - This is the software that is used to package our tweaks and themes into a Debian package, which are the files Cydia downloads and installs from repositories. You can install it by running the following command:
-```
-brew install dpkg
-```
-
-* Perl  - This is a programming language that we will need for running one of the scripts later on to generate our repo. You can install it by running the following command:
-```
-brew install perl
-```
-
-* md5sum - This is a command to generate the md5 hash of our packages. This is so we can verify the files are unchanged and that we are downloading the right files from Cydia. You can install it by running the following command:
-```
-brew install md5sha1sum
-```
-
-* git - This is a version control system that tracks changes to files. This is only necessary if you plan to use Github for hosting your repository. You can install it by running the following command:
-```
-git
-```
-If you don't have git installed already, you will be prompted to install the command line tools.
-
-
-### If you are using Linux, you may need:
-
-* git - This is a version control system that tracks changes to files. This is only necessary if you plan to use Github for hosting your repository. You can install it by running the following command in your terminal:
-```
-sudo apt-get install git
-```
-
-## Getting the Example repo:
-Download the repo as a .zip file from [here](https://github.com/MDausch/Example-Cydia-Repository/archive/master.zip) and extract that to wherever you want to work from
-
-## Repo Configuration
-
-Now that you have everything installed, you can begin setting up your repo's configuration files. First things first, crack open the release file. This file is what tells people who the repository belongs to, and allows you to change its display name in Cydia
-
-When you open up this file it will look like
-
-```
-Origin: Your Repo’s Name
-Label: Your Repository’s label that shows on a tweaks package page
-Suite: stable
-Version: 1.0
-Codename: cydia-ios
-Architectures: iphoneos-arm
-Components: main
-Description:  The name that shows on Cydia
+APT {
+FTPArchive {
+Release {
+Origin "ORIGIN_HERE"; <-- 
+Label "LABEL_HERE"; <-- 
+Suite stable;
+Version 1.0;
+Codename CODENAME_HERE; <-- 
+Architectures iphoneos-arm;
+Components main;
+Description "DESCRIPTION_HERE"; <--
+};
+};
+};
 ```
 
-Here you can change the origin, label, and description pages to whatever you want Cydia to display
+**Branding**
 
+Please check `index.html` for what lines need to be changed! **_Note: You do not need to use the included `index.html`_** </br>
+Add a "CydiaIcon.png" for your APT Repository Logo. **_This is not a design tutorial, it should be relatively self-explanatory_**.
 
-## Setting up Github Pages To Host Your Repo
+**Page Footers**
 
-If you plan to host your repository using GitHub pages, you will need to have a GitHub account made. Don't worry, I'll wait right here while you make one now.
+The data below are the links that appear at the bottom of every **Webview / Cydia Depiction**. The data is stored in `repo.xml` at the root folder of your repo. </br>
 
-Now use the "+" icon on the top of the page to create a new repository. When it prompts you to, name it
-```
-[Your Username].github.io
-```
-This will be where your website lives.
-
-Now you need to add the repo files to be hosted on GitHub. In order to do this, navigate to the folder holding all your repo files in your terminal. Now you will need to run
-```
-git init
-git remote add origin https://github.com/[your github username]/[your github username].github.com.git
-git add --all
-git commit -m "Initial Upload"
-git push origin master
-```
-
-Now you should be able to navigate to [Your Username Here].github.io and you will be taken to your new Repo!
-
-Be sure to update the index.html with the link to your new repo, and customize the page however you want.
-
-## Package Configuration
-
-Now that we have the shell of your repo set up, it is time to get to the meat of the whole project, the packages.
-
-Lets dive right into some more configuration files. Here we have a control file. This is what tells Cydia things like: who made a package, where to find its depiction page, and the package version.
-
-Below is the control file from the example tweak I have provided in this repo
-
-```
-Package: com.mdausch.exampletweak
-Name: ExampleTweak
-Depends: mobilesubstrate
-Version: 0.0.2
-Architecture: iphoneos-arm
-Description: An example package for testing out our personal Cydia repository
-Depiction: https://mdausch.github.io/depictions/?p=com.mdausch.exampletweak
-Maintainer: Maxwell Dausch <max.dausch@gmail.com>
-Author: Maxwell Dausch <max.dausch@gmail.com>
-Section: Tweaks
+```xml
+<repo>
+    <footerlinks>
+        <link>
+            <name>Follow me on Twitter</name>
+            <url>https://twitter.com/localdevice</url> # Feel free to swap your twitter in for this!
+            <iconclass>fa fa-twitter</iconclass>
+        </link>
+        <link> # You can remove this if you wish, however if I may, please do not do so! It will allow others to find repo.me such as you have!
+            <name>I want this depiction template</name>
+            <url>https://github.com/localdevice/repo.me</url>
+            <iconclass>fa fa-thumbs-up</iconclass>
+        </link>
+    </footerlinks>
+</repo>
 ```
 
-Lets break down each of these fields:
+#### 4. _Almost_ ready.
 
-* **Package:** This is your tweaks bundle identifier. Bundle identifiers are usually written out in reverse DNS notation (I.e com.myCompany.myTweak). Take my main repo's bundle identifier for example `ch.mdaus.exampletweak` My domain name is [mdaus.ch](www.mdaus.ch) so when we reverse that we have ch.mdaus and then we just add on what we want our the package to be identified as.
-* **Name:** This is just the name of our package. This is the what Cydia displays as the package name when you go to download it.
-* **Version:** This is simply the version number. This is how your users will know if there is an update for your package. If a user has version 1.0 installed, and your repo has version 1.0.1 being hosted, Cydia will show them that an update is available.
-* **Architecture:** You should NOT change this from `iphoneos-arm` This is the type of our package
-* **Description:** This is just a short description of the package.
-* **Depiction:** This is the link to a custom depiction page for the package. This is how people add screenshots and custom styling to the descriptions of packages in Cydia. If you provide a link here, the "Description" field in the control file is no longer displayed
-* **Maintainer:** This is the person who built the package. Issues with the packaging of the software should be sent to them. You can add their email by placing it in these brackets `<>`  For example `<max.dausch@gmail.com>` would show up in Cydia as the maintainer for my packages, allowing users to send issues over email.
-* **Author:** This is the person who originally wrote the software. This is who should be contacted about bugs in the tweak or theme itself. You can add their email similarly to the maintainer field with these brackets `<>`
-* **Section:**  This is where your package will be displayed in Cydia. `Tweaks` will be placed in the tweaks category. `Games` will be placed in the games category. Feel free to make your own category for your repo if you want to
+At this point your repo is basically ready to be added into your Package Manager of choice. </br>
+You can visit your repo's homepage by going to `https://username.github.io/repo/`. </br>
+Next guide will show you how to assign and customize your depiction pages.
 
-Other fields you may want to add:
+<a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
 
-* **Depends:** Use this field to add the bundle id for any dependencies you may need with your package. Such dependencies may include mobilesubstrate for tweaks or anemone for theming
+### Depictions
 
-* **Conflicts:** Use this field to add any known tweak's bundle ids that conflict with yours. Maybe you modify the lock screen, and another tweak does the same so springboard will always crash, this makes it so you cant have both installed at once.
+### 1.1 Adding a simple depiction page (Web Folder / Cydia)
 
+Go to the depictions folder and duplicate the folder `faith.jasons.oldpackage`. </br>
+Rename the duplicate with the same name as your package name. </br>
+There are 2 files inside the folder - `info.xml` and `changelog.xml`. </br>
+Update the 2 files with information regading your package. </br>
+The tags are pretty much self-explanatory. </br>
+Contact [@localdevice](https://twitter.com/localdevice) for questions.
 
-* **Provides:** Use this field if your package provides the same functionality as another tweak. Take Anemone for example, it provides the functionality of Winterboard, so this tells themes that may have originally only depended on Winterboard that Anemone can be used instead and then allows the theme to be installed.
+`info.xml`.
 
-## Using The Depictions
-
-Depictions are a nice way of adding a bit of flair to your packages page in Cydia. When using a depiction, you are replacing the description page with something a bit more fun, a link to some custom page that has all the info about your package that a user may ever want to know. To use the custom depiction page that I have provided with this repo, there are just a few steps you need to follow:
-
-1. Navigate to the depictions folder in this repo
-2. Create a copy of the ch.mdaus.exampletweak folder
-3. Change the new folders name to be your package's Bundle ID
-4. Open the info.xml file in a text editor of your choice and fill out the information as you see fit
-5. open your packages control file and add the depiction link into the depiction field. If this field is not already there, add it in. The link will look like similar to this, but with your own URL:
-```
-http://mdaus.ch/repo/depictions/?p=ch.mdaus.exampletweak
-```
-the important thing to note is that after you have the path to the depictions folder set up, you need to add the
-```
-/?p=your.bundle.identifier
-```
-part. This is what tells the depiction page to parse the info.xml file, and fill out the depiction page with all the information we could ever need.
-
-### Notes about what our depiction page currently provides
-
-Currently, the depiction implementation that I have provided is pretty bare bones. The info.XML file will look similar to this:
-
-```
-<packageInfo>
-    <bundleId>com.mdausch.exampletweak</bundleId>
-    <name>Example Tweak</name>
-    <version>0.0.2</version>
-    <descriptions>
-        <description>
-            An example package for testing out our personal Cydia repository
-        </description>
-        <description>
-            This is just a bit more detail about what the tweak does... nothing :)
-        </description>
-    </descriptions>
+```xml
+<package>
+    <id>faith.jasons.oldpackage</id>
+    <name>Old Package</name>
+    <version>1.0.0-1</version>
     <compatibility>
-        <miniOS>11.0</miniOS>
-        <maxiOS>11.1.2</maxiOS>
+        <firmware>
+            <miniOS>5.0</miniOS>
+            <maxiOS>7.0</maxiOS>
+            <otherVersions>unsupported</otherVersions>
+            <!--
+            for otherVersions, you can put either unsupported or unconfirmed
+            -->
+        </firmware>
     </compatibility>
-    <dependencies>
-        <dependency>mobilesubstrate</dependency>
-        <dependency>some other dependency</dependency>
-    </dependencies>
+    <dependencies></dependencies>
+    <descriptionlist>
+        <description>This is an old package. Requires iOS 7 and below..</description>
+    </descriptionlist>
+    <screenshots></screenshots>
     <changelog>
-        <change>
-            <changeVersion>V0.0.2 </changeVersion>
-            <changeDescription>An important change</changeDescription>
-            <changeDescription>Another important change</changeDescription>
-        </change>
-        <change>
-            <changeVersion>V0.0.1</changeVersion>
-            <changeDescription>Initial Release</changeDescription>
-        </change>
+        <change>Initial release</change>
     </changelog>
-</packageInfo>
-```
-The important bits are as follows:
-
-* **bundleId:** The bundle ID of the package
-* **Name:** Your packages name
-* **descriptions:** Write out what your package does here. You can have multiple description tags inside the `descriptions` tag. Each description tag creates a new paragraph inside the description box.
-* **miniOS:** This displays the minimum version that your package should be installed on
-* **maxiOS:** This displays the maximum version that your package should be installed on
-* **dependency:** Add a new dependency tag for each dependency that your package requires
-* **changelog:** This will be a list of all the changes your packages have gone through. To add a new change, create a `change` tag. In this tag, you will add a `changeVersion` tag to let users know which change you are writing about. Then after that tag, add a `changeDescription` tag listing what you have modified, added, or removed from the package. You can add as many of these descriptions as you want. They will automatically be styled as a list.
-
-
-Use the provided example info.xml as a guide for how this should be formatted with your information.
-
-### TODO functionality
-
-Here are a few features I would like to add to the depiction page:
-
-* [ ] Screenshots - Either inline or a separate page for screenshots for your package
-* [ ] A Better ChangeLog - Cut down on the clutter and only show the most recent version's changes and then provide a link to another page with the full list of changes
-* [ ] Version Checking - Parse the user agent and figure out if a user's device is compatible with the min and max versions specified
-
-
-## Adding Tweaks
-
-Remember to add your custom depiction link if you want one to the tweaks control file before you package it.
-
-Once you have built the package with THEOS, you can then take the Debian Package that has been made for you and throw it into the Debs folder of the repo.
-
-## Themes
-
-Themes are a bit different to add to the repo, this is because they don't come set up with a control file, nor do they have a managing system like Theos to build it into a Debian package automatically for you. We have to do this ourselves.
-
-To do this:
-
-1. Create a folder with the name of your package.
-2. Inside that folder, create another folder and name it `DEBIAN`
-3. Inside the `DEBIAN` folder, open up the text editior of your choice and add the contents of a control file. Update the fields as you see fit. Remember to add your depiction link if you want a custom depiction to show in Cydia.
-4. Be sure to save the control file without any extension
-5. Now go back to the root project file. Make a folder called `Library`
-6. Inside the Library folder, create another folder and name it  `Themes`
-7. Add your [package].theme folder which holds your custom theme's contents into the `Themes` folder
-8. In your terminal navigate to the folder holding the root package folder.
-9. Type
-```
-dpkg-deb -b Package
-```
-where `Package` is the name of the folder you are compressing
-10. Add the newly generated .deb file to the debs folder of your repo.
-
-## Updating The Repo
-
-Once all of your debs and depictions have been placed in the proper place it is time to update the repo. To do this run the UpdateRepo.sh file from inside your repo in the terminal by typing ./UpdateRepo.sh If this gives you some sort of permissions error, run
-```
-chmod +x UpdateRepo.sh && chmod +x dpkg-scanpackages
-```
-and try running the update script once again.
-
-You will know if the script ran correctly if it gives an output similar to
-
-```
-** Packages in archive but missing from override file: **
-ch.mdaus.exampletweak
-Wrote 1 entries to output Packages file.
+    <links></links>
+</package>
 ```
 
-Now you can upload all of these files to your repo.
+`changelog.xml`.
 
-If you are using GitHub Pages to host your repository, navigate to the repo's folder in your terminal and type
+```xml
+<changelog>
+    <changes>
+        <version>1.0.0-1</version>
+        <change>Initial release</change>
+    </changes>
+</changelog>
+```
+
+### 1.2 Adding a simple depiction page (Native Folder / Sileo)
+
+Go to the /depictions/native/faith.jasons.samplepackage and copy the file `depiction.json`. </br>
+Move into a folder labeled as your package name. </br>
+Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.)</br>
+Contact [@localdevice](https://twitter.com/localdevice) for questions.
+
+#### 2. Link the depiction page in your tweak's `control` file
+
+You can add the depictions url at the end of your package's `control` file before compiling it. </br>
+The depiction line should look like this:
+
+```text
+Depiction: https://username.github.io/repo/depictions/web/?p=[idhere]
+```
+
+Replace `[idhere]` with your actual package name.
+
+```text
+Depiction: https://username.github.io/repo/depictions/web/?p=faith.jaons.oldpackage
+```
+
+For Native Depictions, add the SileoDepiction key alongside the Depiction in your `control` file before compiling it.
+
+```text
+SileoDepiction: https://username.github.io/repo/depictions/native/faith.jaosns.samplepackage/depiction.json
+```
+
+#### 3. Rebuilding the `Packages` file
+With your updated `control` file, build your tweak and store the resulting debian into the `/debians` folder of your repo.
+
+The `Packages` file is handled by `updaterepo.sh`. Windows users should be using WSL, Linux users should be checking for apt-ftparchive, and macOS (10.10+) users should be using Diatrus' recompiled version of apt-ftparchive (this is automatically downloaded and setup via `updaterepo.sh`). macOS users will be asked for their password when running this, this is due to `sudo`, the perms are transmuted after apt-ftparchive is automatically pulled via wget, but not without you entering your password.
+
+#### 4. (Optional) Adding your GPG Key (Soon to be Integrated)
+
+In order to add your GPG key, you're going to need `gnupg` (I'm unaware as of 8/2/2020, if this is available via Homebrew). Afterwards, open a Terminal and type the following: `gpg --gen-key` (if it asks you what kind of key you want, select `4 rsa sign only` 4096 instead of 3072, let it do its thing). **REMEMBER YOUR PASSWORD**. Make sure you're in the directory of your repo and type `sudo gpg --output keyFile --armor --export Last8Lettersofyourkeyfingerprint`.
+
+If you cant find your key fingerprint type `gpg --list-keys` and copy and paste the last 8 letters of the text under pub.
+Now run `update-repo.sh` and then type `gpg -abs -o Release.gpg Release` and enter your password from your gpg key from earlier and then you should be good to go. Now in order for users to add the key they must go into a terminal and type `wget -O - https://yourreponame.com/keyfile | sudo apt-key add -` then `apt-get update` and you're good to go!
+
+#### 5. Repository at last!
+
+Push your changes and if you haven't done yet, go ahead and add your repo to your package manager. </br>
+You should now be able to install your tweak from your own repo.
+
+<a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
+
+## Sileo Extras
+
+These are some extra things that can make your repository look even better on Sileo.
+
+### Featured Packages (`sileo-featured.json`)
+
+Change The Following Lines:
 
 ```
-git add --all
-git commit -m "Uploaded New Packages"
-git push origin master
+ "url": "https://raw.githubusercontent.com/localdevice/repo.me/master/assets/Banners/RepoHeader.png", <---- The Package Banner
+        "title": "Sample Package", <---- Your Package Name
+        "package": "faith.jasons.newpackage", <---- The Actual Package
 ```
 
-This should then upload all of your packages to the repo, and you will then be able to download them from Cydia.
-
-
-## Thats It!
-
-Congratulations, you are now the proud owner of Cydia Repository. Thanks for following my tutorial. Feel free to contact me for any help, or just to say thanks.
-
-
+  <p align="center">Special Thanks and Credits to: <a href="https://github.com/Supermamon/">Supermamon</a> for <a href="https://github.com/supermamon/Reposi3">Reposi3</a> (the base) & <a href="https://twitter.com/Diatrus/">Diatrus</a> for apt-ftparchive on macOS</p>
+</center>
