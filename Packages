@@ -36,16 +36,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.tappy
 Architecture: iphoneos-arm
-Version: 0.1
+Version: 0.2
 Section: Tweaks (SystemWide)
 Maintainer: b4db1r3
 Installed-Size: 364
 Filename: ./debians/com.b4db1r3.tappy.deb
-Size: 15490
-MD5sum: 9bf76d7b40f8f792567388c67ddb574f
-SHA1: 9e68e42f60bd5a3bb99e11454ebe1287d6c2b2b6
-SHA256: 798c95dcdfd44553aaea2b054227adba0fcbbfc907ed9e05bb32981d025a9c99
-SHA512: aae7055527a4ed5f26f3e28b2ca2ea258c1515354bc5365d937226620e3d8043f94674f99a24378aeee21f0223677cf0343b53ea5ccac0fa0657990c22261d37
+Size: 15552
+MD5sum: 2425bdecac75d06b7ea875c4adb92d61
+SHA1: 2b2dbfa86502c102be65a5cc5b1ae91549c739f7
+SHA256: 1cbd3d7a3fe9923a45caf4c9a57fe9dfaf67452a8be8166984b2300c18104b65
+SHA512: e15846970f35bcf1b11f0ca3586e23e3ae3ba310504d1af5241bdf2bae60331c6d4205d1eccefe8583cc8300c23e249552e3f0d77c3894b1d27f5b1dbd7062f5
 Description: Tap the time systemwide to reveal the date!
 Name: tappy
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.tappy
@@ -54,16 +54,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.tappy
 Architecture: iphoneos-arm64
-Version: 0.1
+Version: 0.2
 Section: Tweaks (SystemWide)
 Maintainer: b4db1r3
 Installed-Size: 364
 Filename: ./debians/com.b4db1r3.tappy_Rootless.deb
-Size: 15522
-MD5sum: a3709902dcf3334a3831c13172ff3fac
-SHA1: ac468fe7147137be2e65781cf81d9fcd9e6af7c4
-SHA256: 4bd434dce890ce1d9993db9fd449c57870b657a93506adc17588f34a17347a77
-SHA512: 4e82b422c7c95989ce7ac2d92e16b5da1469b0755ae83113b7dd94ea976dc604bd5c7e1b305c69383b9589f35ecf9f84955e3a0878969b383b5c7565ad0e4852
+Size: 15584
+MD5sum: ab391ccf3b25645c85fb61fbe6867bcb
+SHA1: 55cee49f909c16a860d0f2ddf5158093e93a3fda
+SHA256: e847dfa1dcb64baa9bbb4e609029308adf0f74c425639c52009e9b376d4b518c
+SHA512: bc90a4a4712a75165ee7e75f8dbc5282d2256496345753332029d0f524362a38a7684d562d7c914acda08d89277881e16fdcd121dfa7c0e95eac7bf0c2814a5f
 Description: Tap the time systemwide to reveal the date!
 Name: tappy
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.tappy
