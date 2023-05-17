@@ -1,15 +1,15 @@
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm
-Version: 0.0.2-2+debug
+Version: 0.1
 Section: Tweaks (LockScreen)
 Maintainer: b4db1r3
 Installed-Size: 392
 Filename: ./debians/com.b4db1r3.rgproud.deb
-Size: 387626
-MD5sum: aa2b22e723d382c8acbee130b171ba51
-SHA1: 350f65c8180356b87dab56e74e379f0670962d85
-SHA256: 93fe37c8e95d6eb17000d113db9054a9746b204dc4299d735bb48e7fe5fa4396
-SHA512: e906f139de6dc57312b6ce8f606c1665a74e3cb6401fa29792e5f2227b15aabb7339b6cb65575bae2f5961914c84f403e20a7047669264b3ed17b7ebd23ad915
+Size: 20608
+MD5sum: 8dc53d4d23e4ddd342dbdf6dfccf948e
+SHA1: 69e4d330a4e38807b3c1a3948ebfbf4e9b4eceb1
+SHA256: 5bfa705b0f9ecea665f70135fcbb1b86800fa5716516b54a626665639037473d
+SHA512: 105dfc92da5b1ecd519c5c4656f910690133ee34e37b599ee890c0a9e24d240b2f960493de5b53f28f31de6986227dc1914aa0b89d789d39758c2ed019ed29e5
 Description: Red for unautenticated, green for autenticated
 Name: RGProud
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.rgproud
@@ -18,16 +18,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm64
-Version: 0.0.2-1
+Version: 0.1
 Section: Tweaks (LockScreen)
 Maintainer: b4db1r3
 Installed-Size: 392
 Filename: ./debians/com.b4db1r3.rgproud_Rootless.deb
-Size: 20634
-MD5sum: 7a183a0b26bdfecc1cd01752797ed5b7
-SHA1: dd04de3b8f7c8f464c7a4910a9ec768f26ceb0f7
-SHA256: 69d53369fd3492a2397e5b60cf9c2b00b80b497c466b9d33e4777a50f732d9e6
-SHA512: b3b4a7bf1dab0d6075a1a1313c3de63eac1ffbbc920be76d3ecc8de3436d9625bb5144362189cce3b9b321fc9f6fbb9c89ec38f6327d79605ad3a1c801f122f5
+Size: 20672
+MD5sum: d489598f75729a0daefd82216b6be06f
+SHA1: a8fe39f6a06e2a920f65c5e4a7b6f5b62b2b3e58
+SHA256: 3c35328e50defcc58497264f2414a539e95eb276b7addfa1e689c4c188c7c241
+SHA512: f932a215fac358c13d84732c0e2ae69dd88184e7e2f0faa3665400e4b185e7d5ae8c3d5d924c46c386a4e8ed1d23a8b1fb385ab195b6496e19333557a3a82730
 Description: Red for unautenticated, green for autenticated
 Name: RGProud
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.rgproud
