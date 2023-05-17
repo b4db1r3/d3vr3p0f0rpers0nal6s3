@@ -1,95 +1,121 @@
 {
-  "minVersion": "0.1",
-  "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/Tappy.png?raw=true",
-  "tintColor": "#FFAC1C",
-  "tabs": [
-    {
-      "tabname": "Details",
-      "views": [
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#FF7F50",
+    "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/Tappy.png?raw=true",
+    "tabs": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "## Tappy\n An Elegant way to reveal the date. Tap the time systemwide. Can configure 1 & 2 taps date formats."
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>Tap the time systemwide to reveal the date!</p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": ""
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Tappy/settings.jpeg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Tappy/settings.jpeg?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Tappy/statusbardate.jpeg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Tappy/statusbardate.jpeg?raw=true"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "b4db1r3"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "0.2"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "0"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
         },
         {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "title": "Latest Version",
-          "class": "DepictionHeaderView"
-        },
-        {
-          "title": "Version",
-          "text": "0.2",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Released",
-          "text": "16/05/2023",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Price",
-          "text": "FREE",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Developer",
-          "text": "b4db1r3",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Website",
-          "action": "NOTYETIMPLEMENTED",
-          "class": "DepictionTableButtonView"
-        },
-        {
-          "spacing": 16,
-          "class": "DepictionSpacerView"
-        },
-        {
-          "spacing": 20,
-          "class": "DepictionSpacerView"
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.2"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Fixed Gesture Creation, now it wont hook also into any text on status bar, only to SB clock. <\\/li>\n<li>Fixed ctor logic, now only loads when tweak is enabled<\\/li><\\/ul>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial Release<\\/li><\\/ul>",
+                    "useRawFormat": true
+                }
+            ]
         }
-      ],
-      "class": "DepictionStackView"
-    },
-    {
-      "tabname": "Changelog",
-      "views": [
-        {
-          "title": "0.1",
-          "useBoldText": true,
-          "useBottomMargin": true,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "markdown": "\t\n\u2022 Initial release",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE_0.1</small>",
-          "useRawFormat": true,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "title": "0.2",
-          "useBoldText": true,
-          "useBottomMargin": true,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "markdown": "\t\n\u2022 Fixed Gesture that was on all text elements in CC/LS and such, now the tweak will only work for SB.",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE_0.2</small>",
-          "useRawFormat": true,
-          "class": "DepictionMarkdownView"
-        }
-      ],
-      "class": "DepictionStackView"
-    }
-  ]
+    ]
 }
