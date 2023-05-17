@@ -36,16 +36,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.tappy
 Architecture: iphoneos-arm
-Version: 0.2
+Version: 0.2-1
 Section: Tweaks (SystemWide)
 Maintainer: b4db1r3
 Installed-Size: 364
 Filename: ./debians/com.b4db1r3.tappy.deb
-Size: 15552
-MD5sum: 2425bdecac75d06b7ea875c4adb92d61
-SHA1: 2b2dbfa86502c102be65a5cc5b1ae91549c739f7
-SHA256: 1cbd3d7a3fe9923a45caf4c9a57fe9dfaf67452a8be8166984b2300c18104b65
-SHA512: e15846970f35bcf1b11f0ca3586e23e3ae3ba310504d1af5241bdf2bae60331c6d4205d1eccefe8583cc8300c23e249552e3f0d77c3894b1d27f5b1dbd7062f5
+Size: 15554
+MD5sum: 7a516055e8ac8c70b8a5c9464bd4778c
+SHA1: 0c761d0554cdb3e0338e487bace963b671e7347d
+SHA256: 2039f67ad2acfb5804af080402789920396b43c33d7ee56f11a86c9627ab654a
+SHA512: e5cf4ad20d954b91907ed121932aa30486696a2c0bcdb8d9810275ff0986acdeafc676c72aab06881f79a54993e871debc01da256254138d448644bca31c38d3
 Description: Tap the time systemwide to reveal the date!
 Name: tappy
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.tappy
@@ -54,16 +54,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.tappy
 Architecture: iphoneos-arm64
-Version: 0.2
+Version: 0.2-1
 Section: Tweaks (SystemWide)
 Maintainer: b4db1r3
 Installed-Size: 364
 Filename: ./debians/com.b4db1r3.tappy_Rootless.deb
 Size: 15584
-MD5sum: ab391ccf3b25645c85fb61fbe6867bcb
-SHA1: 55cee49f909c16a860d0f2ddf5158093e93a3fda
-SHA256: e847dfa1dcb64baa9bbb4e609029308adf0f74c425639c52009e9b376d4b518c
-SHA512: bc90a4a4712a75165ee7e75f8dbc5282d2256496345753332029d0f524362a38a7684d562d7c914acda08d89277881e16fdcd121dfa7c0e95eac7bf0c2814a5f
+MD5sum: c994647fb75286f52f620415822b8e70
+SHA1: 5b6d07257d76bbb5aad61588422b16ef49eb3f7c
+SHA256: aee4c80ceb333801780853e1d910abd48099c229ab27ae3d39c5adea37f5dba5
+SHA512: 33fd1e872c34ab843197f2ddfbf053bdaf04496cb3fef66ccde17b26e7f4759b038ef476fc27d41ed76777193ff8f721ad1b00c4da5fd62f4418cf1a6dca106e
 Description: Tap the time systemwide to reveal the date!
 Name: tappy
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.tappy
