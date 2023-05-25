@@ -1,3 +1,37 @@
+Package: com.b4db1r3.ocd
+Architecture: iphoneos-arm
+Version: 0.3-beta
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/com.b4db1r3.ocd.deb
+Size: 15976
+MD5sum: 85523649ef56f4218c17051b6a77a338
+SHA1: b9b459c1b79d67f2dcd70dd029e9abe3dd27bddb
+SHA256: 5df8d0bbbb106c5bc712f7737f07bdd96260d315722cbb8cb0c4684ac2ba8067
+SHA512: a48177c076a54c9ca20fb1fef9c0be8c7d810622a035f73ee3d132d68972b1580025dc0f59ca44b81b1b36883322b63f920fd09fd8cdc22f1a88a0fcf1a2b2d1
+Description: An awesome MobileSubstrate tweak!
+Name: OCD
+Author: b4db1r3
+
+Package: com.b4db1r3.ocd
+Architecture: iphoneos-arm64
+Version: 0.3-beta
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/com.b4db1r3.ocd_Rootless.deb
+Size: 16010
+MD5sum: 42e7978107610b8d13cd2b172060f3b0
+SHA1: 89af80495c836573320d4a0787eb3276ee52cc31
+SHA256: 9161dfb5a2b220a44b55fa93ca66e7db55985efc3c9162149b5064ea6e39530c
+SHA512: 24e8a310fdf59a2e17da1ecd127497627d3e5520425e884d4f3aa86ebe2978fe636fede02dbf974979ecbd6ac55b3c453e38022f223b94dbe384292da01aa6cf
+Description: An awesome MobileSubstrate tweak!
+Name: OCD
+Author: b4db1r3
+
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm
 Version: 0.1
