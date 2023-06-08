@@ -4,10 +4,16 @@
   "itemCornerRadius": 15,
   "banners": [
     {
-        "url": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweak%20Image%20Headers/RGProud.jpg",
-        "title": "RGProud",
-        "package": "com.b4db1r3.rgproud",
-        "hideShadow": false
+      "url": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweak%20Image%20Headers/RGProud.jpg",
+      "title": "RGProud",
+      "package": "com.b4db1r3.rgproud",
+      "hideShadow": false
+    },
+    {
+      "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/IMG_9D48E2571317-1.jpeg?raw=true",
+      "title": "OCD!",
+      "package": "com.b4db1r3.ocd",
+      "hideShadow": false
     }
   ]
 }
