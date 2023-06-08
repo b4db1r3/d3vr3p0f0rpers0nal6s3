@@ -1,4 +1,4 @@
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm
 Codename: b4db1r3
 Components: main
 Date: Thu, 08 Jun 2023 23:57:12 +0000
