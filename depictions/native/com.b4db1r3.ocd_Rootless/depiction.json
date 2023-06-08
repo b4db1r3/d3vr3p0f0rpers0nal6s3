@@ -34,12 +34,12 @@
                         {
                             "accessibilityText": "Screenshot",
                             "url": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweaks%20Screenshots/OCD!/IMG_0677.jpg",
-                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Tappy/settings.jpeg?raw=true"
+                            "fullSizeURL": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweaks%20Screenshots/OCD!/IMG_0677.jpg"
                         },
                         {
                             "accessibilityText": "Screenshot",
                             "url": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweaks%20Screenshots/OCD!/IMG_0678.jpg",
-                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Tappy/statusbardate.jpeg?raw=true"
+                            "fullSizeURL": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweaks%20Screenshots/OCD!/IMG_0678.jpg"
                         }
                     ]
                 },
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>Rewrote the whole code, added features and basically created a new tweak, this package is just a little part of the complete re-write. Need to add the other parts.<\\/li><\\/ul>",
+                    "markdown": "Rewrote the whole code, added features and basically created a better new tweak, this package is just a little part of the complete re-write. Need to add the other parts.",
                     "useRawFormat": true
                 },
                 {
@@ -112,7 +112,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>Initial Release<\\/li><\\/ul>",
+                    "markdown": "Initial Release",
                     "useRawFormat": true
                 }
             ]
