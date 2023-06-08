@@ -3,13 +3,13 @@ Architecture: iphoneos-arm
 Version: 0.3-beta
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 356
+Installed-Size: 488
 Filename: ./debians/com.b4db1r3.ocd.deb
-Size: 16048
-MD5sum: d2c6df0c3105ae212b4c2605845a1b48
-SHA1: 1e1376d8d7297516627631824c70d1b24034143d
-SHA256: c0fa909c715ba70172300ce271712351c6c43299a9ef41b9cbac283909569c58
-SHA512: 35ab5008a29582d0cdc0e1672d1073e0da966f03c8b5a9b86ada479a7f2590fc6a1a16d1e412235094b0cc730f173d209082891be04196b49538660daa25c8c9
+Size: 38692
+MD5sum: 69e8544c641afef738a94bf8b33cb982
+SHA1: 4a5a8f1143ea9f4ce4e57d6597942bed31db78f6
+SHA256: f932c41fc8404602a57c3cfa7d291af6d4fb45e43b1a45de68187a7b638484c0
+SHA512: db22003baa43d5189b0038d33973fe1d88c2b1cacc6974e6c2c5e41272c6e9fba522e2ab794bf97d47f1264de8699196445ddd7f9505fdfed07b17808b04bf20
 Description: Change 3D Touch Menu Elements Based on App Color
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
@@ -21,13 +21,13 @@ Architecture: iphoneos-arm64
 Version: 0.3-beta
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 356
+Installed-Size: 488
 Filename: ./debians/com.b4db1r3.ocd_Rootless.deb
-Size: 16064
-MD5sum: 26bcf5a1489664e76e8e19187ad776f5
-SHA1: 01d83a8a64a8678025944b6d8d29b00cf1641d7f
-SHA256: c63a5ed664769bda42ad6a39d43629ffcc892765bfa152345db1e5a69c75d730
-SHA512: 8bf5b70e649c9c3aa8ea9348f4952439b0f4d012fef9cbfed4e5866110032455807dd02e9deb89410005745d10afa35643f1892300eb309a828d0f248bc634b2
+Size: 38758
+MD5sum: 299da29a883011cc7f6b0fbdf93c66c8
+SHA1: 42f95c87fc85e6d484fa6307404c56c39db793a4
+SHA256: 809c21f31bb44dab574e392e31f01c2166fab52eea7702fbf64f00032237dede
+SHA512: dc87843f579a084f131b2eb6830613ab0a92f48abf59f87783a538bd29231c88412bffee4a67c22a9ed5a9423c3cf9ad22fbc4002216a5e7b88c711d5428e1f5
 Description: Change 3D Touch Menu Elements Based on App Color
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
