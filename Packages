@@ -3,14 +3,14 @@ Architecture: iphoneos-arm
 Version: 0.3-beta
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 488
+Installed-Size: 504
 Filename: ./debians/com.b4db1r3.ocd.deb
-Size: 38692
-MD5sum: 69e8544c641afef738a94bf8b33cb982
-SHA1: 4a5a8f1143ea9f4ce4e57d6597942bed31db78f6
-SHA256: f932c41fc8404602a57c3cfa7d291af6d4fb45e43b1a45de68187a7b638484c0
-SHA512: db22003baa43d5189b0038d33973fe1d88c2b1cacc6974e6c2c5e41272c6e9fba522e2ab794bf97d47f1264de8699196445ddd7f9505fdfed07b17808b04bf20
-Description: Change 3D Touch Menu Elements Based on App Color
+Size: 40160
+MD5sum: 4fc25389b581eceffcf1daf484ba704d
+SHA1: 671835aa8aaf48b62edf718064951113dd65074c
+SHA256: 63745a63235fa3b71f00bdf647bc3f8248bd7b8fcf1d4e9beeece7a0bcde4047
+SHA512: 472da007441b92a36a76e68498cdd9407d6a6f7bb22eb1104f940286dd725894e591b3eff6c6f36419a14b4d1d9acc4a667dd29d7544e0e5c8fbf9f12cad5c79
+Description: OCD will let the option to color icon lables & badges background based on app color!
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd/depiction.json
@@ -21,14 +21,14 @@ Architecture: iphoneos-arm64
 Version: 0.3-beta
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 488
+Installed-Size: 504
 Filename: ./debians/com.b4db1r3.ocd_Rootless.deb
-Size: 38758
-MD5sum: 299da29a883011cc7f6b0fbdf93c66c8
-SHA1: 42f95c87fc85e6d484fa6307404c56c39db793a4
-SHA256: 809c21f31bb44dab574e392e31f01c2166fab52eea7702fbf64f00032237dede
-SHA512: dc87843f579a084f131b2eb6830613ab0a92f48abf59f87783a538bd29231c88412bffee4a67c22a9ed5a9423c3cf9ad22fbc4002216a5e7b88c711d5428e1f5
-Description: Change 3D Touch Menu Elements Based on App Color
+Size: 40182
+MD5sum: fe3b51ef95bff4be3c5df8628b706eab
+SHA1: 36ef215992940ed1db2fdfd0f57617b8c6e99617
+SHA256: db0f7c1b4f6fe4fb93985515e67e5a9cb27c78ca8fe7f0d689f7554be62a1f0f
+SHA512: ce8747f8e6a22ec6c283cd1b7d4ff4a611e4255fa598d2636fb9c8da8caf34f3fbf4ff399b32768cf186935da175f4897af42ab7e906df9e44cdbf72d1aa76ff
+Description: OCD will let the option to color icon lables & badges background based on app color!
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd/depiction.json
