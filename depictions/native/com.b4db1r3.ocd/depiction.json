@@ -60,12 +60,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "0.2"
+                    "text": "0.4-beta_1-Lite""
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Price",
-                    "text": "0"
+                    "text": "Free"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -93,6 +93,18 @@
             "class": "DepictionStackView",
             "tintColor": "#FF7F50",
             "views": [
+		{
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.4-beta_1-Lite"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Further Optimizations for the code (should run better now, especially after respring) &&
+				Formatted the code",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,

@@ -2,7 +2,7 @@
     "minVersion": "0.1",
     "class": "DepictionTabView",
     "tintColor": "#FC0FC0",
-    "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/Tappy.png?raw=true",
+    "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/IMG_9D48E2571317-1.jpeg?raw=true",
     "tabs": [
         {
             "tabname": "Details",
@@ -60,12 +60,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "0.2"
+                    "text": "0.4-beta_1-Lite""
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Price",
-                    "text": "0"
+                    "text": "Free"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -93,6 +93,18 @@
             "class": "DepictionStackView",
             "tintColor": "#FF7F50",
             "views": [
+		{
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.4-beta_1-Lite"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Further Optimizations for the code (should run better now, especially after respring) &&
+				Formatted the code",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
