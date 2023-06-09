@@ -1,15 +1,15 @@
 Package: com.b4db1r3.ocd
 Architecture: iphoneos-arm
-Version: 0.3-beta
+Version: 0.4-beta-1-Lite
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 504
+Installed-Size: 524
 Filename: ./debians/com.b4db1r3.ocd.deb
-Size: 40160
-MD5sum: 4fc25389b581eceffcf1daf484ba704d
-SHA1: 671835aa8aaf48b62edf718064951113dd65074c
-SHA256: 63745a63235fa3b71f00bdf647bc3f8248bd7b8fcf1d4e9beeece7a0bcde4047
-SHA512: 472da007441b92a36a76e68498cdd9407d6a6f7bb22eb1104f940286dd725894e591b3eff6c6f36419a14b4d1d9acc4a667dd29d7544e0e5c8fbf9f12cad5c79
+Size: 42310
+MD5sum: 25ca5e20dd2d6ed607379cfe806cd1a5
+SHA1: 844fa8bf153fe3679cf5aecb77cde5f34041b47d
+SHA256: 8ec7f8353cce30f7813df90eabc7524c23f048d3c641414e983bb4d49bb5d1d8
+SHA512: 99299d658b06739071d4b55478050454defc46b0800737a7ffd137e0206b0bc925601df81aaef8a3ca099ff2de6a8600163986b45b0938c11047d85b01f1cd3a
 Description: OCD will let the option to color icon lables & badges background based on app color!
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
@@ -18,16 +18,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.ocd
 Architecture: iphoneos-arm64
-Version: 0.3-beta
+Version: 0.4-beta-1-Lite
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 504
+Installed-Size: 524
 Filename: ./debians/com.b4db1r3.ocd_Rootless.deb
-Size: 40182
-MD5sum: fe3b51ef95bff4be3c5df8628b706eab
-SHA1: 36ef215992940ed1db2fdfd0f57617b8c6e99617
-SHA256: db0f7c1b4f6fe4fb93985515e67e5a9cb27c78ca8fe7f0d689f7554be62a1f0f
-SHA512: ce8747f8e6a22ec6c283cd1b7d4ff4a611e4255fa598d2636fb9c8da8caf34f3fbf4ff399b32768cf186935da175f4897af42ab7e906df9e44cdbf72d1aa76ff
+Size: 42322
+MD5sum: 6e50d5b24caff9a62b3da928649577b2
+SHA1: 1b888e79976d31dd82eb3c7657f87136e2887fd2
+SHA256: a2cd761c33531d9f0cce3ef57f5615d117304df32378330d18e9a4832cd623c2
+SHA512: 17f9a1cc93c9af8098b3411a3fdad2cf8bc424cfff92b57f9e001e7ea647e1169ec74b0d8cfc8829a6c1a0c24fb4cafd413200badb0092547e9ae07cda20a9d3
 Description: OCD will let the option to color icon lables & badges background based on app color!
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
