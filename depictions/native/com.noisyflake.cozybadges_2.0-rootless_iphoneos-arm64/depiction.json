@@ -1,0 +1,137 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#FF7F50",
+    "headerImage": "https://cdn.chariz.cloud/asset/cozybadges/czhhYhb_D839YD58ac443fOkZRwQMvlg/assets/eyNydbsUK82LuAJuj7-pBdbqFruWg7nUvpAz1jJ1IfIbotGcxP0vzjF1fu7BsCEEW9P9ALWQ6TbxsBrcxxkhGg.jpg",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>A cozy place for your badges
+                    This tweak removes the boring default badges that appear when you have a notification on an app and instead replaces it with colourful labels.
+                    
+                    When you have a notification on an app, you can display e.g. 2 Messages instead of the regular app name. When this app is in a folder, the folder title will adjust accordingly. But that’s not all: you can also color the background of the label or the label text, either with a fixed color or automatically with a color calculated from the app’s icon. You can also set texts for each app individually, so that when you have notifications on Cydia, it will say e.g. 3 Updates.
+                    
+                    CozyBadges also has a feature that let’s you color your labels that don’t have a notification to give your homescreen more color. On top of that, you can choose to hide all labels that don’t have a notification if you like a clean look.
+                    
+                    Full feature list:
+                    
+                    Hide labels that don’t have a notification
+                    Hide or show labels in the dock
+                    Color either the text or background of all labels that don’t have a notification
+                    Automatic or manual color selection
+                    Color either the text or background of all labels with notifications
+                    Automatic or manual color selection
+                    Replace the text of labels with a notification with a custom text (singular / plural, e.g. 1 Message / 2 Messages)
+                    This is also possible on a per-app basis, overwriting the general settings
+                    Not compatible with Docky, FloatingDock or any version of the iPad dock.
+                    
+                    FAQ: Frequently Asked Questions
+                    
+                    Q: I don’t see any labels / badges
+                    A: Make sure that no other tweak hides your app labels. If you want to hide labels for apps that don’t have any notification, use the “Hide labels” feature from CozyBadges, not any other tweak.</p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": ""
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://cdn.chariz.cloud/asset/cosybadges/Qm33jqB7i5XMmFd2sHq53nqwiiFkUVCi/assets/e7n8Uygujuoe-W5Bs-wSWsUS3h7Zn5VWSV1ZRZf4R5fIdWwwiH0fBA3atU_Rdp2mFEhxJ4fU8Fy51d8eu0m5KQ.jpg",
+                            "fullSizeURL": "https://cdn.chariz.cloud/asset/cosybadges/Qm33jqB7i5XMmFd2sHq53nqwiiFkUVCi/assets/e7n8Uygujuoe-W5Bs-wSWsUS3h7Zn5VWSV1ZRZf4R5fIdWwwiH0fBA3atU_Rdp2mFEhxJ4fU8Fy51d8eu0m5KQ.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://cdn.chariz.cloud/asset/cosybadges/Qm33jqB7i5XMmFd2sHq53nqwiiFkUVCi/assets/N5N-bP1dn3e9vf7fseeHetO1tobhf2p9_nPdIveyWWYX5Z0RLQQ_ylHcFAM1YghBwbme_4hZDHPB8W9nvyxVWQ.jpg",
+                            "fullSizeURL": "https://cdn.chariz.cloud/asset/cosybadges/Qm33jqB7i5XMmFd2sHq53nqwiiFkUVCi/assets/N5N-bP1dn3e9vf7fseeHetO1tobhf2p9_nPdIveyWWYX5Z0RLQQ_ylHcFAM1YghBwbme_4hZDHPB8W9nvyxVWQ.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://cdn.chariz.cloud/asset/cosybadges/Qm33jqB7i5XMmFd2sHq53nqwiiFkUVCi/assets/HmnosdIMu88ffSnBwd7OGzp0msHKehZQdK_vnl9jub6j5uD-srqFIzOG1SpH3cwpc8OOMCEh3mv5CisjCTbZww.jpg",
+                            "fullSizeURL": "https://cdn.chariz.cloud/asset/cosybadges/Qm33jqB7i5XMmFd2sHq53nqwiiFkUVCi/assets/HmnosdIMu88ffSnBwd7OGzp0msHKehZQdK_vnl9jub6j5uD-srqFIzOG1SpH3cwpc8OOMCEh3mv5CisjCTbZww.jpg"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "b4db1r3"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "0.2"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "0"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "2.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Added iOS 15 Rootless support. <\\/li>\n<li>Adjusted some things to rootless enviroment.<\\/li><\\/ul>",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}

@@ -70,3 +70,20 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.tappy
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.tappy/depiction.json
 Author: b4db1r3
 
+Package: com.noisyflake.cozybadges
+Architecture: iphoneos-arm64
+Version: 2.0-rootless
+Section: Tweaks
+Maintainer: NoisyFlake & b4db1r3
+Installed-Size: 628
+Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.7)
+Filename: ./debians/com.noisyflake.cozybadges_2.0-rootless_iphoneos-arm64.deb
+Size: 64440
+MD5sum: 3a20f1069a097678a3a42809ecd6781e
+SHA1: 7388973c8eae491df6f03d103c7cfbf4483ede9b
+SHA256: e6fd09ae7f24b67f0ed48987c52b0f09867904479e11dd73746d1a2218e94eaf
+SHA512: 8fa5dde53a236de805acd46d21b2eb3c0b805fe74d3e0ed1f78ef31397d24e519b950ba00b65883ee450ff30c16f485ba1dcd77e8673098b97b4b7b6c5cd25a6
+Description: A cozy place for your badges
+Name: CozyBadges
+Author: NoisyFlake & b4db1r3
+
