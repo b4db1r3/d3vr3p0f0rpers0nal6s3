@@ -1,39 +1,3 @@
-Package: com.b4db1r3.ocd
-Architecture: iphoneos-arm
-Version: 0.4-beta-1-Lite
-Section: Tweaks (SpringBoard)
-Maintainer: b4db1r3
-Installed-Size: 524
-Filename: ./debians/com.b4db1r3.ocd.deb
-Size: 42310
-MD5sum: 25ca5e20dd2d6ed607379cfe806cd1a5
-SHA1: 844fa8bf153fe3679cf5aecb77cde5f34041b47d
-SHA256: 8ec7f8353cce30f7813df90eabc7524c23f048d3c641414e983bb4d49bb5d1d8
-SHA512: 99299d658b06739071d4b55478050454defc46b0800737a7ffd137e0206b0bc925601df81aaef8a3ca099ff2de6a8600163986b45b0938c11047d85b01f1cd3a
-Description: OCD will let the option to color icon lables & badges background based on app color!
-Name: OCD
-Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
-SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd/depiction.json
-Author: b4db1r3
-
-Package: com.b4db1r3.ocd
-Architecture: iphoneos-arm64
-Version: 0.4-beta-1-Lite
-Section: Tweaks (SpringBoard)
-Maintainer: b4db1r3
-Installed-Size: 524
-Filename: ./debians/com.b4db1r3.ocd_Rootless.deb
-Size: 42322
-MD5sum: 6e50d5b24caff9a62b3da928649577b2
-SHA1: 1b888e79976d31dd82eb3c7657f87136e2887fd2
-SHA256: a2cd761c33531d9f0cce3ef57f5615d117304df32378330d18e9a4832cd623c2
-SHA512: 17f9a1cc93c9af8098b3411a3fdad2cf8bc424cfff92b57f9e001e7ea647e1169ec74b0d8cfc8829a6c1a0c24fb4cafd413200badb0092547e9ae07cda20a9d3
-Description: OCD will let the option to color icon lables & badges background based on app color!
-Name: OCD
-Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
-SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd/depiction.json
-Author: b4db1r3
-
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm
 Version: 0.1
