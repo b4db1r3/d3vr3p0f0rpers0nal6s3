@@ -14,8 +14,8 @@ This repository is a testament to following one's passion. I've been creating tw
 
 ### My Main Tweaks
 
-- **RGProud**: Turn your lockscreen's lock icon into a visual lock state indicator: Red for locked, Green for unlocked.
-- **Tappy!**: A single tap on the time reveals the date, with an option for a second tap to display the week, all with a smooth fade animation.
+- **[RGProud](https://github.com/b4db1r3/RGProud)**: Turn your lockscreen's lock icon into a visual lock state indicator: Red for locked, Green for unlocked.
+- **[Tappy!](https://github.com/b4db1r3/Tappy)**: A single tap on the time reveals the date, with an option for a second tap to display the week, all with a smooth fade animation.
 - **CozyBadges**: An extension of NoisyFlake's open-source tweak. I've adapted it for rootless environments, injected new life with spotlight injection, and have more features on the horizon.
 
 ## 🧰 What's Next?
