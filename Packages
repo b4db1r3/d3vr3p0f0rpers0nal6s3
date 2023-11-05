@@ -1,3 +1,21 @@
+Package: com.b4db1r3.lstimeseconds
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 172
+Filename: ./debians/com.b4db1r3.lstimeseconds.deb
+Size: 6188
+MD5sum: af9be458e9846640db21d533da93fd7c
+SHA1: 222a72c877ac704a8b2244df2d509a3021a94e37
+SHA256: 85128c90ae3a4b15fc8d8856334b71e2523d2121b62c8cac275b47bf2ed106b1
+SHA512: 72276d826ba176c1659999b893662fe7fad2ec576eb5bc11f540bfce7cb5553cacf7d5fe2bfc41809139a33ea836e2d71f46a21e9fdcb3f294cc75a1f134c8e1
+Description: Adds seconds to lockscreen time.
+Name: LSTimeSeconds
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds/depiction.json
+Author: b4db1r3
+
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm
 Version: 0.1
