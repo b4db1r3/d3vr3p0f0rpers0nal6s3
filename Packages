@@ -75,14 +75,14 @@ Architecture: iphoneos-arm64
 Version: 2.0-rootless
 Section: Tweaks
 Maintainer: NoisyFlake & b4db1r3
-Installed-Size: 628
+Installed-Size: 596
 Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.7)
 Filename: ./debians/com.noisyflake.cozybadges_2.0-rootless_iphoneos-arm64.deb
-Size: 64426
-MD5sum: 8380858ee68314f4287c0bd54e594245
-SHA1: 1d2ee18d7534066fc3fb30c5d313d9ac1b1adbb0
-SHA256: a64416f28e0ca87e400370c1f013e2cbe49839b4115475da0c360f853b331b7f
-SHA512: e9cf4192b476ef57b82631ac3778be455fb6013bc8b75c9e54014ece57afe7761a31fb67de2d77a563e6e1b512e519c570360162c76196202a54a86f242e159a
+Size: 63252
+MD5sum: c7b07b4a47d73afcac08b295b6cd0a37
+SHA1: 168276be1f862ede8f021ef2a69ecabe1bc95e05
+SHA256: 598ef9c02b6c501651ed19f549cef31f67907940d80583fb40b01b5c7b14149f
+SHA512: 6708c26b3a9284b0b735875a5f1614af9d785b0893a63ee1019bb4578d3674d0523b9a9869cbde1072e4ca4723b808a890347067ef918ed0aa79c9c5f79dd9e0
 Description: A cozy place for your badges
 Name: CozyBadges
 Author: NoisyFlake & b4db1r3
