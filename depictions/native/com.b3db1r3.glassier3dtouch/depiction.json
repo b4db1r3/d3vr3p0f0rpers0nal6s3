@@ -1,0 +1,99 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#FF7F50",
+    "headerImage": "https://github.com/b4db1r3/LSTimeSeconds/blob/main/IMG_0467.jpg?raw=true",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>Glassier3DTouch, will turn your 3D Touch Menu into a more sleek and elegant design, and will replace the blur in the Context Menu with Glassier Blur and color the borders with the actual icon color, and will also reduce both sides of the separator, creating more elegant view.<\\/p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot of LSTimeSeconds",
+                            "url": "https://github.com/b4db1r3/LSTimeSeconds/blob/main/IMG_0467.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/LSTimeSeconds/blob/main/IMG_0467.jpg?raw=true"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "b4db1r3"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "0.2"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "2.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial Release. <\\/li>\n<li>Adjusted some things to rootless environment.<\\/li><\\/ul>",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
