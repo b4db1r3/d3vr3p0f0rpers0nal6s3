@@ -1,20 +1,3 @@
-Package: com.b3db1r3.glassier3dtouch
-Architecture: iphoneos-arm64
-Version: 1
-Section: Tweaks
-Maintainer: b4db1r3
-Installed-Size: 264
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/com.b3db1r3.glassier3dtouch.deb
-Size: 25270
-MD5sum: 5019ba4e1c5b6c7400e1311f7e01c07c
-SHA1: a3a127819d5b44890d45b9f37b0630a8ed0fe29f
-SHA256: 2dadd99b8fc890b08078112b1fdbfeeaa54ff3c4fdde0d62d4742c5084fa6b3a
-SHA512: abdc71f91f1a44e4354b20586ef43c4f39276ebda84a5f03320368d47cfe501565553b24aba8c879a3c771d0c7abdbdf180f3a43285262dd28bcff200b517bf9
-Description: An awesome MobileSubstrate tweak!
-Name: Glassier3DTouch
-Author: b4db1r3
-
 Package: com.b4db1r3.3dglassiertouch
 Architecture: iphoneos-arm
 Version: 1
