@@ -1,0 +1,139 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#FF7F50",
+    "headerImage": "https://placeholder.url/headerImage.jpg",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>Introducing Glassier3DTouch v1.0 - Transform your 3D Touch menu into an elegant, sleek design. This tweak enhances the context menu with a glassier blur, dynamically colors the borders to match the app icon, and features a refined separator for an overall sophisticated look.<\\/p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot 11 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0804.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0804.jpg?raw=true"
+                        },
+{
+                            "accessibilityText": "Screenshot 12 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0827.PNG?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0827.PNG?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot 13 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0828.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0828.jpg?raw=true"
+                        },
+{
+                            "accessibilityText": "Screenshot 2 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0807.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0807.jpg?raw=true"
+                        },
+{
+                            "accessibilityText": "Screenshot 3 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0822.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0822.jpg?raw=true"
+                        },
+{
+                            "accessibilityText": "Screenshot 4 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0823.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0823.jpg?raw=true"
+                        },
+{
+                            "accessibilityText": "Screenshot 5 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0835.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0835.jpg?raw=true"
+                        },
+{
+                            "accessibilityText": "Screenshot 6 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0830.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0830.jpg?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot 7 of Glassier3DTouch",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0829.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0829.jpg?raw=true"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "b4db1r3"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.0"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#FF7F50",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial release with full feature set and dynamic context menu enhancements.<\\/li>\n<li>UI improvements for a seamless user experience.<\\/li><\\/ul>",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
