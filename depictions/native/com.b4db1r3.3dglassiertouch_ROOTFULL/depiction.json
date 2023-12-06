@@ -16,8 +16,31 @@
                     "title": "Description"
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "<p>Introducing Glassier3DTouch v1.0 - Transform your 3D Touch menu into an elegant, sleek design. This tweak enhances the context menu with a glassier blur, dynamically colors the borders to match the app icon, and features a refined separator for an overall sophisticated look.<\\/p>",
+{
+    "class": "DepictionMarkdownView",
+    "markdown": "<h2>🌈 <strong>Introducing 3DGlassierTouch</strong></h2>\
+                <h3>🌟 <strong>Dynamic Coloring</strong></h3>\
+                <p>3DGlassierTouch brings your device to life with dynamic coloring capabilities. The tweak smartly adapts to the colors of your app icons or lockscreen notification icons, adding a vibrant and personalized touch to your interface.</p>\
+                <h3>🔹 <strong>Enhanced Separators</strong></h3>\
+                <p>Customize your UI with both thin and bold separators. Tailor the look of your menus with options for separator thickness and width, adding that extra flair to your device.</p>\
+                <h3>🌈 <strong>Backgrounds & Borders</strong></h3>\
+                <p>Dive into a more immersive experience with a 3D glassier menu background. Add borders with adjustable thickness for a sleek, refined look.</p>\
+                <h3>🎨 <strong>Label Coloring</strong></h3>\
+                <p>Fine-tune the aesthetics with label coloring options. Whether it’s the title, subtitle, or notification labels, 3DGlassierTouch lets you color them to match your style.</p>\
+                <h3>🔄 <strong>Dual Coloring Methods</strong></h3>\
+                <p>Choose between two exclusive coloring methods - Warm and Silky - to set the mood right for your device’s interface.</p>\
+                <h3>🔍 <strong>Customizable Corners and More</strong></h3>\
+                <p>Play with corner radius settings to give your menus a unique shape. Every detail matters, and with 3DGlassierTouch, you have the control.</p>\
+                <h3>📲 <strong>Separate Settings for Homescreen & Lockscreen</strong></h3>\
+                <p>Customize settings independently for both the homescreen and lockscreen, ensuring a tailored experience for each interface.</p>\
+                <h3>🔎 <strong>3D Cell Hiding</strong></h3>\
+                <p>A nifty feature for those who love a clean and organized look. Selectively hide cells in 3D context menus for a minimalist vibe.</p>\
+                <h3><strong>Important Notice:</strong></h3>\
+                <p>Currently, manual color selection isn't available - but I'm all ears! If you crave this feature, let me know. Your feedback might just shape the future updates!</p>\
+                <h3>📥 <strong>Get it Now:</strong></h3>\
+                <p>Available for just $1.50, this tweak is the perfect way to add a splash of personality to your iPhone. Experience the magic of 3DGlassierTouch today!</p>",
+    "useRawFormat": true
+}
                     "useRawFormat": true
                 },
                 {
@@ -94,7 +117,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Price",
-                    "text": "Free"
+                    "text": "1.50$"
                 },
                 {
                     "class": "DepictionSpacerView",
