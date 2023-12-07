@@ -1,3 +1,41 @@
+Package: com.b4db1r3.3dglassiertouch
+Architecture: iphoneos-arm
+Version: 1.5
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 5408
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, com.thebigboss.libcolorpicker
+Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTFULL.deb
+Size: 4551742
+MD5sum: eb2d0ddb0e8ffa5897deb75874079d17
+SHA1: 9f11c0258c2e9e8212714be4c19c00e085ebad7c
+SHA256: e5db78b63a1969f06a6f648460bca9feba4df2a85dfaa1edf287855298e0d731
+SHA512: dd95f4303cb83f117161960256d3c651c16b3755923cc6e5792e718a54bdfe82920300316c787efd05b7c2bfd6d2fc9cd833670e3276e3fc27bde1567d45885b
+Description: 3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!
+Name: 3DGlassierTouch
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dglassiertouch_ROOTLESS
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
+Author: b4db1r3
+
+Package: com.b4db1r3.3dglassiertouch
+Architecture: iphoneos-arm64
+Version: 1.5
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 5408
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, com.thebigboss.libcolorpicker
+Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTLESS.deb
+Size: 4552118
+MD5sum: 24837293ec6c6028bf805b8bfc4cf686
+SHA1: 1c2f03986c478e25e398b5a60b0e2f9f8556d131
+SHA256: 4833f36e3b318f872bfe93cde15053cf46bd041cb64b0dbff2c1ccf9fa9b4531
+SHA512: 7ca669ec9218aa02e0f5091fae4b419e3e383f4cd1164f0e485de8aa20e35851bd1ca6b0e6430b85ad464699e50144d7de9f173bb471a6097dbc1530bd95f113
+Description: 3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!
+Name: 3DGlassierTouch
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dglassiertouch_ROOTLESS
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
+Author: b4db1r3
+
 Package: com.b4db1r3.lstimeseconds
 Architecture: iphoneos-arm64
 Version: 0.0.2
