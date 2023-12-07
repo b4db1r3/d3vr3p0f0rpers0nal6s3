@@ -4,13 +4,13 @@ Version: 1.5
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 5408
-Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, com.thebigboss.libcolorpicker
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
 Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTFULL.deb
-Size: 4551742
-MD5sum: eb2d0ddb0e8ffa5897deb75874079d17
-SHA1: 9f11c0258c2e9e8212714be4c19c00e085ebad7c
-SHA256: e5db78b63a1969f06a6f648460bca9feba4df2a85dfaa1edf287855298e0d731
-SHA512: dd95f4303cb83f117161960256d3c651c16b3755923cc6e5792e718a54bdfe82920300316c787efd05b7c2bfd6d2fc9cd833670e3276e3fc27bde1567d45885b
+Size: 4551776
+MD5sum: 20d1ed644f13e50fd986e9bba1d71689
+SHA1: 9eb3310086aa9182b0ce28a0f99b717a63637b1f
+SHA256: 12f81426629172e2f76096dc05dee8725179616440390af17265643a8d8e83df
+SHA512: eac38dd9b29a8f15eda14da4a8134a922a3aab0dd6b2beb3fe3b954c00a030d682856645319274df10c6372e49085020fa1f671456aed2603e4827e09f94ef54
 Description: 3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!
 Name: 3DGlassierTouch
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dglassiertouch_ROOTLESS
@@ -23,13 +23,13 @@ Version: 1.5
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 5408
-Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, com.thebigboss.libcolorpicker
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
 Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTLESS.deb
-Size: 4552118
-MD5sum: 24837293ec6c6028bf805b8bfc4cf686
-SHA1: 1c2f03986c478e25e398b5a60b0e2f9f8556d131
-SHA256: 4833f36e3b318f872bfe93cde15053cf46bd041cb64b0dbff2c1ccf9fa9b4531
-SHA512: 7ca669ec9218aa02e0f5091fae4b419e3e383f4cd1164f0e485de8aa20e35851bd1ca6b0e6430b85ad464699e50144d7de9f173bb471a6097dbc1530bd95f113
+Size: 4552106
+MD5sum: 510a5bfd002b5406edb9abafe8707c51
+SHA1: bd98cdc145d4151b48fd6a97108819646d46cee7
+SHA256: b0bfbd74c591fe02a8eac35ff1d127a2dc899b69977d2da73cbb0b7c50a8d7f2
+SHA512: d3c52b0185456e613680d2d10098569df235b9cee23e4a40e66569b671dca7932dd4c8196ec49d1a16ba788749bd1dfc3b240332317637baf6351576a9777119
 Description: 3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!
 Name: 3DGlassierTouch
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dglassiertouch_ROOTLESS
