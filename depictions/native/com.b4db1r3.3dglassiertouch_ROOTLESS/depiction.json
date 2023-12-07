@@ -53,7 +53,7 @@
           },
           {
             "class": "DepictionMarkdownView",
-            "markdown": "- Individual change of the color based on app icon of every element (separators, background,labels)\n- Control width and thickness of seperators D\n- Control corner radius of borders, and thickness \n- Dynamic cell hiding\n- Lockscreen & Homescreen separated configurations\n- Dual Coloring Options\n-Many options to configure\n-Support from iOS 15 to iOS 17",
+            "markdown": "- Individual change of the color based on app icon of every element (separators, background,labels)\n- Control width and thickness of seperators \n- Control corner radius of borders, and thickness \n- Dynamic cell hiding\n- Lockscreen & Homescreen separated configurations\n- Dual Coloring Options\n- Many options to configure\n- Support from iOS 15 to iOS 17",
             "useSpacing": true
           },
           {
@@ -87,7 +87,7 @@
           {
             "class": "DepictionTableTextView",
             "title": "Release date",
-            "text": "06/15/2020"
+            "text": "06/12/2023"
           },
           {
             "class": "DepictionTableTextView",
