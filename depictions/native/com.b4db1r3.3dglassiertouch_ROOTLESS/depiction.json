@@ -120,6 +120,23 @@
         "views": [
           {
             "class": "DepictionSubheaderView",
+            "title": "v1.6",
+            "useBoldText": true,
+            "useBottomMargin": false
+          },
+          {
+            "class": "DepictionMarkdownView",
+            "markdown": "- Fixed Separators Hidden Logic, now its should only effect 3d context & Hooks \n- fixed 3d expanded notification on homescreen, now its merged with homescreen settings \n- added changelog button next to the gear icon",
+            "useSpacing": true
+          },
+          {
+            "class": "DepictionLabelView",
+            "text": "08/12/2023",
+            "textColor": "gray",
+            "margins": "{8, 16, 16, 16}"
+          },
+          {
+            "class": "DepictionSubheaderView",
             "title": "v1.5",
             "useBoldText": true,
             "useBottomMargin": false
