@@ -144,3 +144,21 @@ Name: CozyBadges
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.noisyflake.cozybadges_2.0-rootless_iphoneos-arm64/depiction.json
 Author: NoisyFlake & b4db1r3
 
+Package: me.gmoran.darkerdarkmode
+Architecture: iphoneos-arm64
+Version: 0.5.1-1+debug
+Section: Tweaks
+Maintainer: Guillermo Moran (@fr0st) & b3db1r3
+Installed-Size: 180
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debians/me.gmoran.darkerdarkmode_ROOTLESS.deb
+Size: 9456
+MD5sum: fc6c34df897be3d78a39c55ef0629df8
+SHA1: 1794b72b5562ff7a90089bc7715e25029341c795
+SHA256: f254686dafc43ce4dfb0500064f80d2a4306027f67554d3a8d2e4e4415696a6a
+SHA512: 689eabc42ce496f73f720fc0a8f7323050daa6970e6048278c88dded608cd0f3a7f425f965528ec90d1a607298e44f0cdfe2f8de62d1d506724cec5d66aabd3f
+Description: Make dark mode actual dark.
+Name: OLED Dark Mode
+Depiction: http://gmoran.me/depictions/darkerdarkmode.html
+Author: Guillermo Moran (@fr0st) & b3db1r3
+
