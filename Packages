@@ -146,19 +146,20 @@ Author: NoisyFlake & b4db1r3
 
 Package: me.gmoran.darkerdarkmode
 Architecture: iphoneos-arm64
-Version: 0.5.1-1+debug
+Version: 0.5.1-5+debug
 Section: Tweaks
-Maintainer: Guillermo Moran (@fr0st) & b3db1r3
+Maintainer: @fr0st & b4db1r3
 Installed-Size: 180
 Depends: mobilesubstrate, firmware (>= 13.0)
 Filename: ./debians/me.gmoran.darkerdarkmode_ROOTLESS.deb
-Size: 9456
-MD5sum: fc6c34df897be3d78a39c55ef0629df8
-SHA1: 1794b72b5562ff7a90089bc7715e25029341c795
-SHA256: f254686dafc43ce4dfb0500064f80d2a4306027f67554d3a8d2e4e4415696a6a
-SHA512: 689eabc42ce496f73f720fc0a8f7323050daa6970e6048278c88dded608cd0f3a7f425f965528ec90d1a607298e44f0cdfe2f8de62d1d506724cec5d66aabd3f
+Size: 9490
+MD5sum: 0fc9be05e8cdf8bb3a20891a2397a5cc
+SHA1: 87d858f4eab98115ab4a15c20924f6db85c56c6e
+SHA256: 0044c760bb31c1e67050394ea9ff60e343dad2db89349346db57b890668233fa
+SHA512: 1b75a61019f8c0c98748fd4e8abdb89f24ade35b6c095b6871663299f05762e92b42fc76b9b43b52a58cf3979e335038108c7937d9964bc258f012b1f0ab51f0
 Description: Make dark mode actual dark.
 Name: OLED Dark Mode
-Depiction: http://gmoran.me/depictions/darkerdarkmode.html
-Author: Guillermo Moran (@fr0st) & b3db1r3
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=me.gmoran.darkerdarkmode_ROOTLESS
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/me.gmoran.darkerdarkmode_ROOTLESS/depiction.json
+Author: @fr0st & b4db1r3
 
