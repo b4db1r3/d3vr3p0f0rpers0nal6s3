@@ -170,14 +170,13 @@ Maintainer: pixelomer & b3db1r3
 Installed-Size: 1140
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debians/com.pixelomer-b4db1r3_ROOTLESS.deb
-Size: 620072
-MD5sum: 44ed3b6b8da170526a1cb370364efc77
-SHA1: efe9912ba10c7c3c46a0f83dfee769924dab3612
-SHA256: 206f5419cc07ce9eb847536d9150135e658e4b9f8ae4484d844d3a700d486c41
-SHA512: a3089eef583df0f86dafccaa1ab77ce210f38532ccd938a4da8628c850fa62bdbf6a83fd5d9026bb5a388cff1076874008d22d6fec0bef0a2f4cfb70808f9187
+Size: 619992
+MD5sum: b9eb36fd4b44196295644a89f2384ebb
+SHA1: 41163b877ce29f2a2ba666439cc68167ca5ad1c9
+SHA256: 66e7186e170f87afb1996f7d4ee1068e96bc6edaac309c616a77e1f2301f879b
+SHA512: 8fba87ab141062d94c9b33e5adfaa654a493f955d9651eae207ba1ad593fa03ffc4a0a73cd608bc8f11718a36eee50ca6d41686c33b87ef7d0755e09bfc6c12f
 Description: An annoying goose for your iDevice
 Name: MobileGoose
-SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.pixelomer-b4db1r3_ROOTLESS/depiction.json
 Author: pixelomer
 
 Package: me.gmoran.darkerdarkmode
