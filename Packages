@@ -144,6 +144,42 @@ Name: CozyBadges
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.noisyflake.cozybadges_2.0-rootless_iphoneos-arm64/depiction.json
 Author: NoisyFlake & b4db1r3
 
+Package: com.pixelomer-b4db1r3.mobilegoose
+Architecture: iphoneos-arm
+Version: 1.4.0
+Section: Tweaks
+Maintainer: pixelomer & b3db1r3
+Installed-Size: 1140
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debians/com.pixelomer-b4db1r3_ROOTFUL.deb
+Size: 619998
+MD5sum: e4df85e2e98cf8bf373084126c3a666b
+SHA1: d70eba2bffb494593eafeabd2b4dd7d10420ca8a
+SHA256: db857e47374c5b24fca56cf062f73beb56a7b0cc7d865bd616cd3217d0d8a6f7
+SHA512: b5883fabe4fd4e3aef7bbebcb42d5facf8acc3935a7e37486c0dad80f4a02d60cae40afc54b5cb0dc992d0d59caf4176de22fd22982a03fb410763e3fb0f53ed
+Description: An annoying goose for your iDevice
+Name: MobileGoose
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.pixelomer-b4db1r3_ROOTLESS/depiction.json
+Author: pixelomer
+
+Package: com.pixelomer-b4db1r3.mobilegoose
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Section: Tweaks
+Maintainer: pixelomer & b3db1r3
+Installed-Size: 1140
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debians/com.pixelomer-b4db1r3_ROOTLESS.deb
+Size: 620072
+MD5sum: 44ed3b6b8da170526a1cb370364efc77
+SHA1: efe9912ba10c7c3c46a0f83dfee769924dab3612
+SHA256: 206f5419cc07ce9eb847536d9150135e658e4b9f8ae4484d844d3a700d486c41
+SHA512: a3089eef583df0f86dafccaa1ab77ce210f38532ccd938a4da8628c850fa62bdbf6a83fd5d9026bb5a388cff1076874008d22d6fec0bef0a2f4cfb70808f9187
+Description: An annoying goose for your iDevice
+Name: MobileGoose
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.pixelomer-b4db1r3_ROOTLESS/depiction.json
+Author: pixelomer
+
 Package: me.gmoran.darkerdarkmode
 Architecture: iphoneos-arm64
 Version: 0.5.1-5+debug
