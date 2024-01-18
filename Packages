@@ -199,3 +199,43 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=me.gmoran.darkerd
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/me.gmoran.darkerdarkmode_ROOTLESS/depiction.json
 Author: @fr0st & b4db1r3
 
+Package: xyz.skitty.quietdown
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Skitty & b4db1r3
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debians/xyz.skitty.quietdown_2.0_iphoneos_ROOTFUL.deb
+Size: 65866
+MD5sum: 79f33ee506093b2df7d1cd34365a1d7f
+SHA1: 08ce7085c74574857c634f0bea325ad4684c2ca9
+SHA256: 769be4777205ed86cbbedc8519a52fbcc9bc225041e79642306bc1c0f12c7e08
+SHA512: 1d026476b44d47eac17b5eb90359a61cb538b2a32921123890c1a52d4d094c0a651ea02c5a1527d2b3d54cfd39568d2bca42ad6627a54103f19d99615131d9b9
+Description: Mute Notifications for Time Periods
+Name: QuietDown
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
+Author: Skitty
+
+Package: xyz.skitty.quietdown
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Skitty & b4db1r3
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debians/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS.deb
+Size: 65914
+MD5sum: 6f13ea58e9ec285b3d2c49947fd12f40
+SHA1: 909227a05fa80d1e155b85e54cc3fb6e9ffd783c
+SHA256: 32fa64f0b84491acac6d0165b4b183cac89df5e76d8201427c4b859f977b0865
+SHA512: a92aca1b1c9cbe1050d27bbf7d9c101f1b2dad1aa7d6c9dae3db375e054d8373ad73488654ae3a6199843e244c9dedf0b47e9665f332ed10ff61cfba6b31f245
+Description: Mute Notifications for Time Periods
+Name: QuietDown
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
+Author: Skitty
+
