@@ -12,10 +12,10 @@ if [[ "$OSTYPE" == "linux"* ]]; then # Linux usage of repo.me
     
     apt-ftparchive release -c ./assets/repo/repo.conf . > Release
     
-    echo "Repository Updated, thanks for using repo.me!"
-    elif [[ "$(uname)" == Darwin ]] && [[ "$(uname -p)" == i386 ]]; then # macOS usage of repo.me
+    elif [[ "$(uname)" == Darwin ]] && ([[ "$(uname -p)" == i386 ]] || [[ "$(uname -m)" == "arm64" ]]); then
+    # macOS usage of repo.me
     cd "$(dirname "$0")" || exit
-    
+
     echo "Checking for Homebrew, wget, xz, & zstd..."
     if test ! "$(which brew)"; then
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"

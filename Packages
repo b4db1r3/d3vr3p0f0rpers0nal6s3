@@ -162,6 +162,42 @@ Name: CozyBadges
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.noisyflake.cozybadges_2.0-rootless_iphoneos-arm64/depiction.json
 Author: NoisyFlake & b4db1r3
 
+Package: com.pixelomer-b4db1r3.mobilegoose
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: pixelomer & b3db1r3
+Installed-Size: 1140
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debians/com.pixelomer-b4db1r3_ROOTFUL.deb
+Size: 619982
+MD5sum: 92997b63fab9f9ec04bb446ea0d4b8b5
+SHA1: c6f33bdd1b34196ee2b109d82fc5e9acf79b871f
+SHA256: 4f81d1d11f805b874ffd7adbe85d98420293047d180e7ca279e777df9ce9a38a
+SHA512: ba35313fedc4a46944df96ef99987a5a0a83f71d70b47e1b31015e4285b743ba93711e0b9621c520c207bf646040d250c265b0d37f98e675bb722e268f0ccf5e
+Description: An annoying goose for your iDevice
+Name: MobileGoose
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.pixelomer-b4db1r3_ROOTLESS/depiction.json
+Author: pixelomer
+
+Package: com.pixelomer-b4db1r3.mobilegoose
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: pixelomer & b3db1r3
+Installed-Size: 1140
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debians/com.pixelomer-b4db1r3_ROOTLESS.deb
+Size: 620054
+MD5sum: 61d9cf01437c009e9039872ed460db6d
+SHA1: cdf0c91e374d92cfa1e6539f066ffde183cfad61
+SHA256: 788a29192712aa6313b01cce599c5d422b9bdf48b8de0757855c9e505d011706
+SHA512: 5c3ad28776f962869e02f248ec63b3185d4f91d5e94d936afeb59da8f418203f10b3862812050120e44d898935bd6a199a9dbc493c7b5ea8d67df9e062c5d6a5
+Description: An annoying goose for your iDevice
+Name: MobileGoose
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.pixelomer-b4db1r3_ROOTLESS/depiction.json
+Author: pixelomer
+
 Package: me.gmoran.darkerdarkmode
 Architecture: iphoneos-arm64
 Version: 0.5.1-5+debug
@@ -180,4 +216,44 @@ Name: OLED Dark Mode
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=me.gmoran.darkerdarkmode_ROOTLESS
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/me.gmoran.darkerdarkmode_ROOTLESS/depiction.json
 Author: @fr0st & b4db1r3
+
+Package: xyz.skitty.quietdown
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Skitty & b4db1r3
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debians/xyz.skitty.quietdown_2.0_iphoneos_ROOTFUL.deb
+Size: 65866
+MD5sum: 79f33ee506093b2df7d1cd34365a1d7f
+SHA1: 08ce7085c74574857c634f0bea325ad4684c2ca9
+SHA256: 769be4777205ed86cbbedc8519a52fbcc9bc225041e79642306bc1c0f12c7e08
+SHA512: 1d026476b44d47eac17b5eb90359a61cb538b2a32921123890c1a52d4d094c0a651ea02c5a1527d2b3d54cfd39568d2bca42ad6627a54103f19d99615131d9b9
+Description: Mute Notifications for Time Periods
+Name: QuietDown
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
+Author: Skitty
+
+Package: xyz.skitty.quietdown
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Skitty & b4db1r3
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debians/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS.deb
+Size: 65914
+MD5sum: 6f13ea58e9ec285b3d2c49947fd12f40
+SHA1: 909227a05fa80d1e155b85e54cc3fb6e9ffd783c
+SHA256: 32fa64f0b84491acac6d0165b4b183cac89df5e76d8201427c4b859f977b0865
+SHA512: a92aca1b1c9cbe1050d27bbf7d9c101f1b2dad1aa7d6c9dae3db375e054d8373ad73488654ae3a6199843e244c9dedf0b47e9665f332ed10ff61cfba6b31f245
+Description: Mute Notifications for Time Periods
+Name: QuietDown
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
+Author: Skitty
 
