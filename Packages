@@ -56,17 +56,17 @@ Author: b4db1r3
 
 Package: com.b4db1r3.ocd
 Architecture: iphoneos-arm64
-Version: 0.4-beta-1-Lite
+Version: 0.6.9
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 564
+Installed-Size: 604
 Filename: ./debians/com.b4db1r3.ocd_ROOTLESS.deb
-Size: 43532
-MD5sum: 8481aeb70026764ab670f601666fb5e1
-SHA1: e524c865deb5b7cadbe7bea2ccf855138fe31421
-SHA256: 21dbf3258675ad2320ee05d21398501c98e0ded50fc96ca303d61b3dc66a54cc
-SHA512: 5ec10c194e35a0285785983f7086d0960816ee26f12b9cfc32d24d274b35174c3dce5bdb4bf60a2f79d489445c9362438bd210ccaf3fa3cc8c624eb13af88ce2
-Description: OCD will let the option to color icon lables & badges background based on app color!
+Size: 52534
+MD5sum: 9de786c2bcae74eb438a62ceaf7b2c8d
+SHA1: 183a7fc329da9a415eb702d504757c7983697599
+SHA256: c92981406e51051adeff62b01d9b24e78a8957435f973d42dad4670a4b501553
+SHA512: 813155f0a50f7bfe1c090ad5075df9b450554d2107778a198c858900d211d14fe0c54b5a846fa9095a4a207f79698dd011a619c74737a4d0d9453c5cedc7674c
+Description: OCD - Obssesive Color Disorder.
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd/depiction.json
