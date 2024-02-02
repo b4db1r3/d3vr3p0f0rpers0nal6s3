@@ -60,12 +60,13 @@ Version: 0.6.9
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
 Installed-Size: 604
+Conflicts: com.noisyflake.cozybadges
 Filename: ./debians/com.b4db1r3.ocd_ROOTLESS.deb
-Size: 52534
-MD5sum: 9de786c2bcae74eb438a62ceaf7b2c8d
-SHA1: 183a7fc329da9a415eb702d504757c7983697599
-SHA256: c92981406e51051adeff62b01d9b24e78a8957435f973d42dad4670a4b501553
-SHA512: 813155f0a50f7bfe1c090ad5075df9b450554d2107778a198c858900d211d14fe0c54b5a846fa9095a4a207f79698dd011a619c74737a4d0d9453c5cedc7674c
+Size: 52574
+MD5sum: 1b587cfd13473e098c52df3e8729129f
+SHA1: 0155d586aedcf6cc732af4e9bdf6dc2a2b8bd707
+SHA256: e13b2b3101049d9a8d62b40d6bcf5ad2bdc01ff2f8202c94c503d12ebc56f896
+SHA512: 559744516066a906faa06480687e96bca73effbf062592f4b97a3cd70e6684f301a8a8b9f31be08caa6f218def733e69625a7c759c3f499a8647ca9df4a0f42b
 Description: OCD - Obssesive Color Disorder.
 Name: OCD
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd
