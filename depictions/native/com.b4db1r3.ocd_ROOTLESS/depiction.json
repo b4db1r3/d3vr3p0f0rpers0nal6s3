@@ -1,0 +1,137 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/Tweak%20Image%20Headers/DALL·E%202024-02-03%2018.34.12%20-%20Design%20a%20Sileo%20header%20image%20that%20is%20vibrant%20and%20colorful%2C%20embodying%20a%20spectrum%20of%20colors.%20The%20image%20should%20capture%20the%20essence%20of%20innovation%20and%20creat.webp",
+  "tintColor": "#b28ff8",
+  "minVersion": "0.1",
+  "tabs": [
+      {
+          "class": "DepictionStackView",
+          "tabname": "Details",
+          "views": [
+              {
+                  "class": "DepictionLabelView",
+                  "text": "OCD Tweak - Obsessive Color Disorder",
+                  "fontWeight": "medium"
+              },
+              {
+                  "class": "DepictionSpacerView",
+                  "spacing": 8
+              },
+              {
+                  "class": "DepictionScreenshotsView",
+                  "itemCornerRadius": 6,
+                  "itemSize": "{192, 256}",
+                  "screenshots": [
+                      {
+                          "accessibilityText": "Screenshot 1",
+                          "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/IMG_2383.jpg?raw=true"
+                      },
+                      {
+                          "accessibilityText": "Screenshot 2",
+                          "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/IMG_2388.jpg?raw=true"
+                      },
+                      {
+                          "accessibilityText": "Screenshot 3",
+                          "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/IMG_2389.jpg?raw=true"
+                      },
+                      {
+                          "accessibilityText": "Screenshot 4",
+                          "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/IMG_2385.jpg?raw=true"
+                      }
+                  ]
+              },
+              {
+                  "class": "DepictionMarkdownView",
+                  "markdown": "This tweak will help you conquer Obsessive Color Disorder (OCD) by providing customization for icons & badges Embrace the colorful world of iOS with the following features:\n",
+                  "useSpacing": true
+              },
+              {
+                  "class": "DepictionHeaderView",
+                  "title": "Features",
+                  "useBoldText": true,
+                  "useBottomMargin": false
+              },
+              {
+                  "class": "DepictionMarkdownView",
+                  "markdown": "1) Automatically colorize badges' backgrounds and icons/folder labels based on app colors. If there are no notifications in a folder, it will color the label from the icons inside. For folders with multiple app notifications, it will color the folder badge with the highest notification count.\n\n2) Choose from 8 color schemes, including light, dark, chrome, and material that mimic pastel/blur types.\n\n3) Edit corner radius from square to circle.\n\n4) Add a border for badge backgrounds. The tweak features a smart algorithm that determines whether the border should be dark/light or something else based on your color scheme.\n\n5) Give your OCD a break with this tweak. Relax and enjoy your iOS experience!",
+                  "useSpacing": true
+              },
+              {
+                  "class": "DepictionSeparatorView"
+              },
+              {
+                  "class": "DepictionTableTextView",
+                  "title": "Developer",
+                  "text": "b4db1r3"
+              },
+              {
+                  "class": "DepictionTableTextView",
+                  "title": "Version",
+                  "text": "1.0"
+              },
+              {
+                  "class": "DepictionTableTextView",
+                  "title": "iOS Version",
+                  "text": "Roothide & Dopamine | iOS 15.0 to 17.0"
+              },
+              {
+                  "class": "DepictionTableTextView",
+                  "title": "Last update",
+                  "text": "03/02/2024"
+              },
+              {
+                  "class": "DepictionTableTextView",
+                  "title": "Release date",
+                  "text": "03/02/2024"
+              },
+              {
+                  "class": "DepictionTableTextView",
+                  "title": "Category",
+                  "text": "Tweaks"
+              },
+              {
+                  "class": "DepictionSeparatorView"
+              },
+              {
+                  "class": "DepictionTableButtonView",
+                  "title": "SoundCloud",
+                  "action": "https://soundcloud.com/skinnykat"
+              },
+              {
+                  "class": "DepictionTableButtonView",
+                  "title": "GitHub",
+                  "action": "https://github.com/b4db1r3"
+              },
+              {
+                  "class": "DepictionTableButtonView",
+                  "title": "Reddit",
+                  "action": "https://www.reddit.com/user/_b4db1r3_"
+              }
+          ]
+      },
+      {
+          "class": "DepictionStackView",
+          "tabname": "Changelog",
+          "views": [
+
+              {
+                  "class": "DepictionSubheaderView",
+                  "title": "1.0",
+                  "useBoldText": true,
+                  "useBottomMargin": false
+              },
+              {
+                  "class": "DepictionMarkdownView",
+                  "markdown": "- Initial release. \nSupport Roothide & Dopamine.",
+                  "useSpacing": true
+              },
+              {
+                  "class": "DepictionLabelView",
+                  "text": "03/02/2024",
+                  "textColor": "gray",
+                  "margins": "{8, 16, 16, 16}"
+              }
+          ]
+      }
+  ]
+}
