@@ -202,18 +202,18 @@ Author: pixelomer
 
 Package: com.xyaman.tako
 Architecture: iphoneos-arm64
-Version: 0.6.9
+Version: 0.7.0
 Section: Tweaks
 Maintainer: b4db1r3
-Installed-Size: 768
+Installed-Size: 788
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.mrgcgamer.libgcuniversal
 Filename: ./debians/com.xyaman.tako_ROOTLESS.deb
-Size: 91118
-MD5sum: 3b335fcf763ee1477c56ba912c1dc3e9
-SHA1: e6598cf8a40a3a6c2127da986897e68c997ea357
-SHA256: 976e9d2b522eff3aa8de2544a96a139651310648e1d148a65353b69658a790fc
-SHA512: 7558e00941d13da9f2a7cfc3a80942a859351363f49988d6b21b1c7c1d8ab520f706297c91ad2ce523468ef802b816dc805d12bca0dd4d8173ebb499f5d653f3
-Description: Notification priority hub tweak. Originze your lockscreen notification.
+Size: 96838
+MD5sum: a02d06366b85c42d26c6f2731005d094
+SHA1: f4782d3ad1e956adf0eb57789c67a2de64e34b78
+SHA256: 1a3bcb996155ab623b0a43a625f7378189e5ace6a54980ffd72c29e811719854
+SHA512: 76cd9bfee6295ffc093c51c77220570af092dc0e7c898ae8db41f241406e11f35a2a2c60ca3d5329914af9c87c3a81b3f4c77c82a80d554ce2c27bc6692f6045
+Description: Notification priority hub tweak. Originze your lockscreen notification. Version 0.7.0 - Fixes Notification Shifting Up Problem.
 Name: Tako (iOS 15 | Rootless | Dopamine | Palera1n)
 Author: Xyaman
 Depiction: https://repo.xyaman.xyz/depictions/index.html?p=tako
