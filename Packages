@@ -61,15 +61,15 @@ Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 176
 Filename: ./debians/com.b4db1r3.lstimeseconds16.deb
-Size: 10438
-MD5sum: c5634976ac8a139f7310353131b35072
-SHA1: 2ae7794f3a589b22458076a12b4b97abc340718f
-SHA256: dae95deb9afc300ec454155124a9887891fa9f1fe7df0526722f27e70ec21f6f
-SHA512: 728aa0f4277a3b151f4a8af47267cd9142a1667e003fa179a687adcec45654a70bf5bb3b370535f5b789c09b81e9b1ac493dc069283ad01ea7e9774413f1908e
+Size: 10442
+MD5sum: 953cbfc0b3c9cc0e2048eb5137dc6e36
+SHA1: 8006bafe2a1788c13f230a783d51899cc141677c
+SHA256: 92c70399e171afee9d9381f071125f462504ae7525557a3c375015688a98975a
+SHA512: 727bf8470fcc7efd36adb223303810fbed5021187b0689642c3e591908eb058c5e9bf3231286cb5ad7e5887c63fe9c9d5523763fc8c4bea34c6f6127402980aa
 Description: Adds seconds to lockscreen time.
 Name: LSTimeSeconds16 (iOS 16+ | Dopamine 2 | RootHide | palera1n)
-Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds
-SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds/depiction.json
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds16
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds16/depiction.json
 Author: b4db1r3
 
 Package: com.b4db1r3.ocd
