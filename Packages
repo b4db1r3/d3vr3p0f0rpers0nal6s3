@@ -54,6 +54,24 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstim
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds/depiction.json
 Author: b4db1r3
 
+Package: com.b4db1r3.lstimeseconds
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 176
+Filename: ./debians/com.b4db1r3.lstimeseconds16.deb
+Size: 10434
+MD5sum: e8d0476c03d5b47b6bcd5b50f3fe07be
+SHA1: 8523a2da4b593e990e606be7eab0a7d3f033cb88
+SHA256: 0d55dc4c43793661e6894513f464275aed5a636e6735ef6058fe6669624a5be7
+SHA512: c53ce29145d4b1d946b762ddc77f865fdf1b5b91eb566d5ee23a525eab383f2646ee7e2194af998aab881561ed5b42993daadf28389d1ee85c8790a37dcb0180
+Description: Adds seconds to lockscreen time.
+Name: LSTimeSeconds16 (iOS 16+ | Dopamine 2 | RootHide | palera1n)
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds
+SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds/depiction.json
+Author: b4db1r3
+
 Package: com.b4db1r3.ocd
 Architecture: iphoneos-arm64
 Version: 1.0
