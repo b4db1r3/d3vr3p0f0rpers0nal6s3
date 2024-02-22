@@ -218,22 +218,42 @@ Name: MobileGoose
 SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.pixelomer-b4db1r3_ROOTLESS/depiction.json
 Author: pixelomer
 
-Package: com.xyaman.tako
+Package: com.xyaman.libkuro
 Architecture: iphoneos-arm64
 Version: 0.8.5
+Section: System
+Maintainer: Diego Barría
+Installed-Size: 204
+Filename: ./debians/com.xyaman.libkuro_ROOTLESS.deb
+Size: 8290
+MD5sum: bf332ce4e279a6394aa30bcbb7230d30
+SHA1: a14c093fca40c7df0fbb60b483d234f7e2a4b66b
+SHA256: c795fa952e6325ad116002840b50874e6e177c3bf4f903c8bb922d059323cf4c
+SHA512: d5b06b987739aebd19252327b939c0812ba5be29439f9f0fc81445540f278a949bcb6b465ae0bc55864247eb289c1f3957f99878f6614f6c089bf50fa7f8b5e2
+Description: Very simple image library.
+Tag: role::developer
+Name: libKuro
+Author: Diego Barría
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libkuro
+SileoDepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
+Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
+
+Package: com.xyaman.tako
+Architecture: iphoneos-arm64
+Version: 1.0.0
 Section: Tweaks
 Maintainer: b4db1r3
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.mrgcgamer.libgcuniversal
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
 Filename: ./debians/com.xyaman.tako_ROOTLESS.deb
-Size: 95060
-MD5sum: 8e7e56e00b6f74b87ba15a33c502fb78
-SHA1: 41cd3a6e57d1edd6bfa62c69593a316d04e12db0
-SHA256: 53709de204c81cddb3cb260b84169967acea871a03bb951b18ca0a410899d8e9
-SHA512: eebd0437a901a550b257262db7d3fe822ef44e8ff68f0138571c8ae64840ce1548c01d49f72d70f95fb32ac9b5017cec20b590508f7f0213ac94034ad479c63b
-Description: Notification priority hub tweak. Organize your lock screen notifications effortlessly. \n\nVersion 0.8.5 fully fixes notification random shifting problem and dynamically shifts the view based on Do Not Disturb (DND) status (will shift down if DND is on).
-Name: Tako (iOS 15 | Rootless | Dopamine | Palera1n)
-Author: Xyaman
+Size: 89410
+MD5sum: f4ed07e6b65a16e3f82eb1f3aec655b0
+SHA1: cd7fba724ab7f987f958a2097548eb22a7367b86
+SHA256: 66b4f6436ff9ac42315324880ab24f45cc85ff9fc79e0a1837f0daccb12e7700
+SHA512: 55388acfe9e1ed2a94009e1773c377d7ec5742ccde745a08227c0b423f769d699233c24f66b8df3807732639b55b1f0b33a0922a914f6b6750d2da31896eda16
+Description: Notification priority hub tweak
+Name: Tako ( iOS 15.x - 17.x )
+Author: Xyaman & b4db1r3
 Depiction: https://repo.xyaman.xyz/depictions/index.html?p=tako
 SileoDepiction: https://repo.xyaman.xyz/depictions/tako/depiction.json
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
@@ -256,44 +276,4 @@ Name: OLED Dark Mode
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=me.gmoran.darkerdarkmode_ROOTLESS
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/me.gmoran.darkerdarkmode_ROOTLESS/depiction.json
 Author: @fr0st & b4db1r3
-
-Package: xyz.skitty.quietdown
-Architecture: iphoneos-arm
-Version: 2.0
-Section: Tweaks
-Maintainer: Skitty & b4db1r3
-Installed-Size: 528
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debians/xyz.skitty.quietdown_2.0_iphoneos_ROOTFUL.deb
-Size: 65866
-MD5sum: 79f33ee506093b2df7d1cd34365a1d7f
-SHA1: 08ce7085c74574857c634f0bea325ad4684c2ca9
-SHA256: 769be4777205ed86cbbedc8519a52fbcc9bc225041e79642306bc1c0f12c7e08
-SHA512: 1d026476b44d47eac17b5eb90359a61cb538b2a32921123890c1a52d4d094c0a651ea02c5a1527d2b3d54cfd39568d2bca42ad6627a54103f19d99615131d9b9
-Description: Mute Notifications for Time Periods
-Name: QuietDown
-Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
-Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
-SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
-Author: Skitty
-
-Package: xyz.skitty.quietdown
-Architecture: iphoneos-arm64
-Version: 2.0
-Section: Tweaks
-Maintainer: Skitty & b4db1r3
-Installed-Size: 528
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debians/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS.deb
-Size: 65914
-MD5sum: 6f13ea58e9ec285b3d2c49947fd12f40
-SHA1: 909227a05fa80d1e155b85e54cc3fb6e9ffd783c
-SHA256: 32fa64f0b84491acac6d0165b4b183cac89df5e76d8201427c4b859f977b0865
-SHA512: a92aca1b1c9cbe1050d27bbf7d9c101f1b2dad1aa7d6c9dae3db375e054d8373ad73488654ae3a6199843e244c9dedf0b47e9665f332ed10ff61cfba6b31f245
-Description: Mute Notifications for Time Periods
-Name: QuietDown
-Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
-Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
-SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
-Author: Skitty
 
