@@ -246,16 +246,16 @@ Maintainer: b4db1r3
 Installed-Size: 748
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),  com.mrgcgamer.libgcuniversal,irmware (>= 15.2) | firmware (> 16.0)
 Filename: ./debians/com.xyaman.tako_ROOTLESS.deb
-Size: 90052
-MD5sum: ea361b18bdd5e036247cf9abfc922628
-SHA1: 0a7796e8b7791b0a71a898464ea8c0b71c295534
-SHA256: 9ebdffc32fdb0ce0a265e406f829e0495bc3f5e0bc0271476f8fcce6f3af974a
-SHA512: 27d74975c275b821f4c18ee650d7356b043d5ff085837837de2817552665f0d36a19fc67b385ab900410eb770a4d9a7220d70edd8a0532e8db6fdc56bb043e90
+Size: 90090
+MD5sum: e7704674c6e6b02bc684f0ab93cc4d6d
+SHA1: 3469a648d0e95b7af7253793ef6deff97e393e19
+SHA256: fef046617a439e92bb3c41b6373a49d95ccbda7c3b9294537b61069fff1894df
+SHA512: 62f832ff1b630783fe13bc88aec3548fbd18f733585532f46276d00b0c50d0f269d879d71c51a9b481edb9ce35aca500622529d8feed104d7de3f2c0d17897db
 Description: Notification priority hub tweak
 Name: Tako ( iOS 15-16 )
 Author: Xyaman & b4db1r3
 Depiction: https://repo.xyaman.xyz/depictions/index.html?p=tako
-SileoDepiction: https://repo.xyaman.xyz/depictions/tako/depiction.json
+SileoDepiction: https://github.com/b4db1r3/d3vr3p0/blob/main/depictions/native/com.xyaman.tako_ROOTLESS/depiction.json
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 
 Package: me.gmoran.darkerdarkmode
