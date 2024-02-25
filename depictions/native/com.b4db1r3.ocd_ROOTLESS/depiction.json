@@ -113,7 +113,23 @@
           "class": "DepictionStackView",
           "tabname": "Changelog",
           "views": [
-
+            {
+                "class": "DepictionSubheaderView",
+                "title": "2.0",
+                "useBoldText": true,
+                "useBottomMargin": false
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "- Split the tweak to 2 sections, Badges & Icons, you can choose which one you want to color. \n - Fix to color folder label with first icon if no notifications" ,
+                "useSpacing": true
+            },
+            {
+                "class": "DepictionLabelView",
+                "text": "25/02/2024",
+                "textColor": "gray",
+                "margins": "{8, 16, 16, 16}"
+            },
               {
                   "class": "DepictionSubheaderView",
                   "title": "1.0",
