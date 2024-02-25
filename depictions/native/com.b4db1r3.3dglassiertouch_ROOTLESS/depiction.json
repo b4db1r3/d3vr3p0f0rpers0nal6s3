@@ -1,7 +1,7 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://preview.redd.it/xjziox9yj6kc1.jpg?width=2048&format=pjpg&auto=webp&s=c1c327f47278314c902873da7461e238567a17e8",
-    "tintColor": "#FFA500",
+    "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/1.png?raw=true",
+    "tintColor": "#b28ff2",
     "minVersion": "0.1",
     "tabs": [
       {
@@ -10,7 +10,7 @@
         "views": [
           {
             "class": "DepictionLabelView",
-            "text": "Notification priority hub. An alternative to Grupi and Axon.",
+            "text": "Make 3D Menu Elegant",
             "fontWeight": "medium"
           },
           {
@@ -24,17 +24,25 @@
             "screenshots": [
               {
                 "accessibilityText": "Screenshot 1",
-                "url": "https://preview.redd.it/xjziox9yj6kc1.jpg?width=2048&format=pjpg&auto=webp&s=c1c327f47278314c902873da7461e238567a17e8"
+                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0828.jpg?raw=true"
               },
               {
                 "accessibilityText": "Screenshot 2",
-                "url": "https://preview.redd.it/vvncj9vzj6kc1.jpg?width=960&format=pjpg&auto=webp&s=559b1661e33f568ab0af335d3a2cbb4bab989291"
+                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0833.jpg?raw=true"
+              },
+              {
+                "accessibilityText": "Screenshot 3",
+                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0827.PNG?raw=true"
+              },
+              {
+                "accessibilityText": "Screenshot 4",
+                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0822.jpg?raw=true"
               }
             ]
           },
           {
             "class": "DepictionMarkdownView",
-            "markdown": "Groups your notifications.\n",
+            "markdown": "This tweak will let you control every aspect od 3D touch menus, using dynamic colors.\n",
             "useSpacing": true
           },
           {
@@ -45,7 +53,7 @@
           },
           {
             "class": "DepictionMarkdownView",
-            "markdown": "- Different styles.\n- Adaptative color. \n- Swipe gestures to remove your notifications",
+            "markdown": "- Individual change of the color based on app icon of every element (separators, background,labels)\n- Control width and thickness of seperators \n- Control corner radius of borders, and thickness \n- Dynamic cell hiding\n- Lockscreen & Homescreen separated configurations\n- Dual Coloring Options\n- Many options to configure\n- Support from iOS 15 to iOS 17",
             "useSpacing": true
           },
           {
@@ -53,33 +61,33 @@
           },
           {
             "class": "DepictionTableTextView",
-            "title": "Maintainer",
+            "title": "Developer",
             "text": "b4db1r3"
           },
           {
             "class": "DepictionTableTextView",
             "title": "Price",
-            "text": "FREE"
+            "text": "1.5$"
           },
           {
             "class": "DepictionTableTextView",
             "title": "Version",
-            "text": "1.0.1"
+            "text": "1.5"
           },
           {
             "class": "DepictionTableTextView",
             "title": "iOS Version",
-            "text": "iOS >= 15.2 && > 16.0 "
+            "text": "iOS 15.0 to 17.0"
           },
           {
             "class": "DepictionTableTextView",
             "title": "Last update",
-            "text": "25/02/2024"
+            "text": "07/12/2023"
           },
           {
             "class": "DepictionTableTextView",
             "title": "Release date",
-            "text": "23/02/2024"
+            "text": "06/12/2023"
           },
           {
             "class": "DepictionTableTextView",
@@ -112,26 +120,37 @@
         "views": [
           {
             "class": "DepictionSubheaderView",
-            "title": "1.0.1",
+            "title": "v1.6.1",
             "useBoldText": true,
             "useBottomMargin": false
           },
           {
             "class": "DepictionMarkdownView",
-            "markdown": "- Fix AutoUnlocX Problem, Now Will Only Unlock If No Notification Present. - Limit Y Axis View's to -15, View is not suppose to be above/overlap/inside the clock view. shouldnt had this option from the beginning. - Fixed some edge respring case - Tweak is not working on iOS 15.0-15.1.1 and iOS 16.0 (DO NOT INSTALL IF ON THOSE VERSIONS) - Added firmware (>= 15.2) | firmware (> 16.0) to control file until a fix will be found (meaning: you won't be able to install the tweak on those versions)",
+            "markdown": "- Fixed Separators Hidden Logic, now its should only effect 3d context & Hooks \n- fixed 3d expanded notification on homescreen, now its merged with homescreen settings \n- added changelog button next to the gear icon",
             "useSpacing": true
           },
           {
             "class": "DepictionLabelView",
-            "text": "25/02/2024",
+            "text": "08/12/2023",
             "textColor": "gray",
             "margins": "{8, 16, 16, 16}"
           },
           {
             "class": "DepictionSubheaderView",
-            "title": "v1.0",
+            "title": "v1.5",
             "useBoldText": true,
             "useBottomMargin": false
+          },
+          {
+            "class": "DepictionMarkdownView",
+            "markdown": "- Fixed iOS 16 Support & Hooks \n- Added Proper Description",
+            "useSpacing": true
+          },
+          {
+            "class": "DepictionLabelView",
+            "text": "07/12/2023",
+            "textColor": "gray",
+            "margins": "{8, 16, 16, 16}"
           },
           {
             "class": "DepictionSeparatorView"
@@ -149,7 +168,7 @@
           },
           {
             "class": "DepictionLabelView",
-            "text": "23/02/2024",
+            "text": "06/12/2023",
             "textColor": "gray",
             "margins": "{8, 16, 16, 16}"
           }
