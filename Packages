@@ -38,16 +38,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.lstimeseconds16
 Architecture: iphoneos-arm64
-Version: 0.0.3
+Version: 0.0.5
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 352
 Filename: ./debians/com.b4db1r3.lstimeseconds16.deb
-Size: 13950
-MD5sum: 099a30fa0a49536ede55609e09b119d4
-SHA1: 2bc12d92600470cfc5f59b9e11c2fbdc4e0d6141
-SHA256: c94d1601e2757e8a21c12a4d44ad43686cb379356ad2ddad106639cf8d64da6a
-SHA512: 18667a84fad6c1ffec99aceb4c5864cf5de6c750570bbdc3f4639e20462f253eeda961c33db0a13e1958621948bea000f09bcff5e6c19c079a7063ea8516e1bc
+Size: 14362
+MD5sum: 254862271585cbae822df308ee633700
+SHA1: 26e2b2ed5521e12eba0384dee52f855f81122b64
+SHA256: 447e5564191e4b4ce3a5c9bfd78550081acd9ad2d12971a00d77b4f5fbbe3edc
+SHA512: 3aed90e57c94eb2433fcf1274b1e9e60c14453ebceef2b81ca28fb3b03bfe6f9abeb153a96f17839637b3028c9400cf1164b481152c29c9341e7f0a99880fe55
 Description: Adds seconds to lockscreen time.
 Name: LSTimeSeconds (iOS 15 - 16)
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds16
