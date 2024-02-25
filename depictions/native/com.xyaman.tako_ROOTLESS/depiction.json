@@ -118,7 +118,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Fix AutoUnlocX Problem, Now Will Only Unlock If No Notification Present. - Limit Y Axis View's to -15, View is not suppose to be above/overlap/inside the clock view. shouldnt had this option from the beginning. - Fixed some edge respring case - Tweak is not working on iOS 15.0-15.1.1 and iOS 16.0 (DO NOT INSTALL IF ON THOSE VERSIONS) - Added firmware (>= 15.2) | firmware (> 16.0) to control file until a fix will be found (meaning: you won't be able to install the tweak on those versions)",
+          "markdown": "- Fix AutoUnlocX Problem, Now Will Only Unlock If No Notification Present.\n - Limit Y Axis View's to -15, View is not suppose to be above/overlap/inside the clock view. shouldnt had this option from the beginning.\n - Fixed some edge respring case \n - Tweak is not working on iOS 15.0-15.1.1 and iOS 16.0 (DO NOT INSTALL IF ON THOSE VERSIONS)\n - Added firmware (>= 15.2) | firmware (> 16.0) | firmware (< 17.0) to control file until a fix will be found (meaning: you won't be able to install the tweak on those versions)",
           "useSpacing": true
         },
         {
