@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Added Preferences \n - Added Option to Configure 24/12 Hour Clock (Respring After)",
+                    "markdown": "- Added Preferences \\n - Added Option to Configure 24/12 Hour Clock (Respring After) \\n - Fixed Pref Name in Settings",
                     "useRawFormat": true
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release. \n - Rewrote the tweak for iOS 16+.",
+                    "markdown": "- Initial Release. \\nå - Rewrote the tweak for iOS 16+.",
                     "useRawFormat": true
                 }
             ]

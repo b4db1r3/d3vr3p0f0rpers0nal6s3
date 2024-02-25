@@ -56,16 +56,16 @@ Author: b4db1r3
 
 Package: com.b4db1r3.lstimeseconds16
 Architecture: iphoneos-arm64
-Version: 0.0.2
+Version: 0.0.2.1
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 352
 Filename: ./debians/com.b4db1r3.lstimeseconds16.deb
-Size: 14262
-MD5sum: adf3af9927d9b82b066cd91b78b61fb7
-SHA1: 42514f6af86c5945e0104a66461209571436bf16
-SHA256: a249cb1d2e1682fd44c6c66bb63175b1367860426b7cefd6dcf819664e9bce2f
-SHA512: 7804b37c23c87ff0d0c7e275388c8ddafb5372bfe7855f0a11b860923f4ec8e4674fe966de068c282e1dea2327a537b61c3fc5188d2319a39971ed0f7c3cb9f2
+Size: 14288
+MD5sum: 65f6a42b88b3cec1ee7fa4b99b2dcf8f
+SHA1: 2face122d9a910c2bdf34b780d6907f4d1f98726
+SHA256: dd74fa7701ed5c6d99937f687f799eec2df461b73adc284a6fd728bf841666fc
+SHA512: bebd8a7db66d37b00b0c227d62d9a7d2557f2bfad1196539aad97ea21ccbc422b57ce984a070d93953e8b8bf38a470e0d74c1afee48c8a9498e8b4decf1310a3
 Description: Adds seconds to lockscreen time.
 Name: LSTimeSeconds16 (iOS 16+ | Dopamine 2 | RootHide | palera1n)
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds16
