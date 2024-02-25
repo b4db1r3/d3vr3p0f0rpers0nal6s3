@@ -86,11 +86,22 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
+                    "title": "0.0.2"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added Preferences \n - Added Option to Configure 24/12 Hour Clock (Respring After)",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
                     "title": "0.0.1"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>Initial Release. <\\/li>\n<li>Rewrote the tweak for iOS 16+.<\\/li><\\/ul>",
+                    "markdown": "- Initial Release. \n - Rewrote the tweak for iOS 16+.",
                     "useRawFormat": true
                 }
             ]
