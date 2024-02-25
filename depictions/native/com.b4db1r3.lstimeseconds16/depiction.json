@@ -17,7 +17,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<p>Introducing LSTimeSeconds16, a sleek and minimalist tweak that adds a live seconds display to your lockscreen. Perfect for those who love precision or simply enjoy the allure of a dynamically changing lockscreen, LSTimeSeconds integrates seamlessly with all major lockscreen customization tweaks. It requires no configuration, making it effortless to keep track of every second.<\\/p>",
+                    "markdown": "<p>Introducing LSTimeSeconds (iOS 15 - 16), a sleek and minimalist tweak that adds a live seconds display to your lockscreen. Perfect for those who love precision or simply enjoy the allure of a dynamically changing lockscreen, LSTimeSeconds integrates seamlessly with all major lockscreen customization tweaks. It requires no configuration, making it effortless to keep track of every second.<\\/p>",
                     "useRawFormat": true
                 },
                 {
@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Added Preferences \\n - Added Option to Configure 24/12 Hour Clock (Respring After) \\n - Fixed Pref Name in Settings",
+                    "markdown": "- Added Preferences To Configure 24/12 Hour Clock (Respring After) \n - Fixed Pref Name in Settings",
                     "useRawFormat": true
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release. \\nå - Rewrote the tweak for iOS 16+.",
+                    "markdown": "- Initial Release. \n  - Rewrote the tweak for iOS 16+.",
                     "useRawFormat": true
                 }
             ]

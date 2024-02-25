@@ -36,38 +36,20 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dgla
 SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
 Author: b4db1r3
 
-Package: com.b4db1r3.lstimeseconds
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Section: Tweaks
-Maintainer: b4db1r3
-Installed-Size: 172
-Filename: ./debians/com.b4db1r3.lstimeseconds.deb
-Size: 6188
-MD5sum: af9be458e9846640db21d533da93fd7c
-SHA1: 222a72c877ac704a8b2244df2d509a3021a94e37
-SHA256: 85128c90ae3a4b15fc8d8856334b71e2523d2121b62c8cac275b47bf2ed106b1
-SHA512: 72276d826ba176c1659999b893662fe7fad2ec576eb5bc11f540bfce7cb5553cacf7d5fe2bfc41809139a33ea836e2d71f46a21e9fdcb3f294cc75a1f134c8e1
-Description: Adds seconds to lockscreen time.
-Name: LSTimeSeconds
-Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds
-SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds/depiction.json
-Author: b4db1r3
-
 Package: com.b4db1r3.lstimeseconds16
 Architecture: iphoneos-arm64
-Version: 0.0.2.1
+Version: 0.0.3
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 352
 Filename: ./debians/com.b4db1r3.lstimeseconds16.deb
-Size: 14288
-MD5sum: 65f6a42b88b3cec1ee7fa4b99b2dcf8f
-SHA1: 2face122d9a910c2bdf34b780d6907f4d1f98726
-SHA256: dd74fa7701ed5c6d99937f687f799eec2df461b73adc284a6fd728bf841666fc
-SHA512: bebd8a7db66d37b00b0c227d62d9a7d2557f2bfad1196539aad97ea21ccbc422b57ce984a070d93953e8b8bf38a470e0d74c1afee48c8a9498e8b4decf1310a3
+Size: 13950
+MD5sum: 099a30fa0a49536ede55609e09b119d4
+SHA1: 2bc12d92600470cfc5f59b9e11c2fbdc4e0d6141
+SHA256: c94d1601e2757e8a21c12a4d44ad43686cb379356ad2ddad106639cf8d64da6a
+SHA512: 18667a84fad6c1ffec99aceb4c5864cf5de6c750570bbdc3f4639e20462f253eeda961c33db0a13e1958621948bea000f09bcff5e6c19c079a7063ea8516e1bc
 Description: Adds seconds to lockscreen time.
-Name: LSTimeSeconds16 (iOS 16+ | Dopamine 2 | RootHide | palera1n)
+Name: LSTimeSeconds (iOS 15 - 16)
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.lstimeseconds16
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.lstimeseconds16/depiction.json
 Author: b4db1r3
