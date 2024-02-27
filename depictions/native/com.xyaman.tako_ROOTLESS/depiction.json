@@ -112,7 +112,24 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "1.0.1",
+          "title": "1.0.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added an option to force bypass AutoUnlockX if you have set AUX to 'Disable if Notifications'",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "27/02/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.2",
           "useBoldText": true,
           "useBottomMargin": false
         },
@@ -129,7 +146,7 @@
         },
         {
           "class": "DepictionSubheaderView",
-          "title": "v1.0",
+          "title": "1.0",
           "useBoldText": true,
           "useBottomMargin": false
         },
