@@ -118,7 +118,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Added an option to force bypass AutoUnlockX if you have set AUX to 'Disable if Notifications'",
+          "markdown": "- Added an option to force bypass AutoUnlockX if you have toggled OFF 'Disable if Notifications'",
           "useSpacing": true
         },
         {
