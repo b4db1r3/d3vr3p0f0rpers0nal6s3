@@ -115,6 +115,23 @@
           "views": [
             {
                 "class": "DepictionSubheaderView",
+                "title": "3.0",
+                "useBoldText": true,
+                "useBottomMargin": false
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "- Added new color calculation method (from my paid twaek 3DGlassierTouch) - Bold, Vibrant is the color calculation from the start. \n - Fixed blueish / black icon labels bug \n - Added option to control border width" ,
+                "useSpacing": true
+            },
+            {
+                "class": "DepictionLabelView",
+                "text": "03/03/2024",
+                "textColor": "gray",
+                "margins": "{8, 16, 16, 16}"
+            },
+            {
+                "class": "DepictionSubheaderView",
                 "title": "2.0",
                 "useBoldText": true,
                 "useBottomMargin": false
