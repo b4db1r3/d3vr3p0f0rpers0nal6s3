@@ -26,7 +26,8 @@
                 "cornerRadius": 5,
                 "margins": "{10, 10, 10, 10}",
                 "useBoldText": true,
-                "buttonHeight": 50
+                "buttonHeight": 50,
+                "alignment": "center" 
               },
               {
                   "class": "DepictionScreenshotsView",
