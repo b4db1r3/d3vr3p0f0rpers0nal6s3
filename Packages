@@ -56,18 +56,18 @@ Author: b4db1r3
 
 Package: com.b4db1r3.ocd
 Architecture: iphoneos-arm64
-Version: 3.0
+Version: 3.0.3
 Section: Tweaks (SpringBoard)
 Maintainer: b4db1r3
-Installed-Size: 800
+Installed-Size: 784
 Depends: com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.noisyflake.cozybadges
 Filename: ./debians/com.b4db1r3.ocd_ROOTLESS.deb
-Size: 100998
-MD5sum: e4e8f93908f51b66c09848a3f08528da
-SHA1: 379d6e960d18e998684ef9d32cf0bbe52dafdd76
-SHA256: 9d8266a8e106148154f5637a7c16dc5b376d0c1c2d6581a9caee57bfa8f83038
-SHA512: 7a296cb0ae4832c14628167b3f0fe2e32b0e09e2934123633bd64899901e24708ced180a09982685f80724df4597f0705b6d9ba931977162ce54a82fe341a039
+Size: 99144
+MD5sum: 8ca32e65e31d3bff2974e2db99b191b7
+SHA1: df7a69becfa5b030c2b14b0d1995e42164d1a307
+SHA256: ca250619afb7f5388e146465efc8e9fc68c8f906a144a9522ac511e2aa0b4e2f
+SHA512: 32effc7d8bc7eb9767f83d8e3138cc3331f6adc181f2e81d04af368606f401914b8f6ba2666e0635022b4f18ca7bd0367dda0e9c316f7912db97222e43ffc5a0
 Description: OCD - Obssesive Color Disorder.
 Name: OCD (iOS 15-17 | Roothide & Dopamine)
 Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd_ROOTLESS

@@ -18,6 +18,17 @@
                   "spacing": 8
               },
               {
+                "class": "DepictionTableButtonView",
+                "title": "💖 Donate if you like my work 💖",
+                "action": "https://www.paypal.com/donate/?hosted_button_id=YPAJNSUUNUH9E",
+                "textColor": "#ffffff",
+                "backgroundColor": "#f57c00",
+                "cornerRadius": 5,
+                "margins": "{10, 10, 10, 10}",
+                "useBoldText": true,
+                "buttonHeight": 50
+              },
+              {
                   "class": "DepictionScreenshotsView",
                   "itemCornerRadius": 6,
                   "itemSize": "{192, 256}",
@@ -67,7 +78,7 @@
               {
                   "class": "DepictionTableTextView",
                   "title": "Version",
-                  "text": "1.0"
+                  "text": "3.0.3"
               },
               {
                   "class": "DepictionTableTextView",
@@ -77,7 +88,7 @@
               {
                   "class": "DepictionTableTextView",
                   "title": "Last update",
-                  "text": "03/02/2024"
+                  "text": "04/03/2024"
               },
               {
                   "class": "DepictionTableTextView",
@@ -113,6 +124,23 @@
           "class": "DepictionStackView",
           "tabname": "Changelog",
           "views": [
+            {
+                "class": "DepictionSubheaderView",
+                "title": "3.0.3",
+                "useBoldText": true,
+                "useBottomMargin": false
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "- Refactored Code \n - Removed Logs from code \n - Apply another fix to the blueish / black color (seems to be iOS 16.5 specific problem) \n - Fixed some problems with badge coloring that might occour after a respring" ,
+                "useSpacing": true
+            },
+            {
+                "class": "DepictionLabelView",
+                "text": "04/03/2024",
+                "textColor": "gray",
+                "margins": "{8, 16, 16, 16}"
+            },
             {
                 "class": "DepictionSubheaderView",
                 "title": "3.0",
