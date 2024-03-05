@@ -79,7 +79,7 @@
               {
                   "class": "DepictionTableTextView",
                   "title": "Version",
-                  "text": "3.0.5"
+                  "text": "4.0"
               },
               {
                   "class": "DepictionTableTextView",
@@ -89,7 +89,7 @@
               {
                   "class": "DepictionTableTextView",
                   "title": "Last update",
-                  "text": "04/03/2024"
+                  "text": "05/03/2024"
               },
               {
                   "class": "DepictionTableTextView",
@@ -125,6 +125,23 @@
           "class": "DepictionStackView",
           "tabname": "Changelog",
           "views": [
+            {
+                "class": "DepictionSubheaderView",
+                "title": "4.0",
+                "useBoldText": true,
+                "useBottomMargin": false
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "- I Am once again, fixing things and making you all happy! (i love you all) \n - Better utilization for colorCache, hopefully the problematic blueish/black bug (iOS 16.5) will be eliminated \n - Improved folder coloring; now it will reflect the color calculation \n - Fixed color schema options (sorry for that!) \n - Added an icon for the tweak (using Dalle3) \n - Added more segments to border width, allowing for even more control \n - Thank you for reporting all the problems; keep it up!" ,
+                "useSpacing": true
+            },
+            {
+                "class": "DepictionLabelView",
+                "text": "05/03/2024",
+                "textColor": "gray",
+                "margins": "{8, 16, 16, 16}"
+            },
             {
                 "class": "DepictionSubheaderView",
                 "title": "3.0.5",
