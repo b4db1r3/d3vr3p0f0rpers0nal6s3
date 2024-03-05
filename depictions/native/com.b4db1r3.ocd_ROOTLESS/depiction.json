@@ -133,7 +133,7 @@
             },
             {
                 "class": "DepictionMarkdownView",
-                "markdown": "- Refactored Code \n - Removed Logs from code \n - Apply another fix to the blueish / black color (seems to be iOS 16.5 specific problem) \n - Fixed some problems with badge coloring that might occour after a respring" ,
+                "markdown": "- Sorry for 3.0.3 update, everything should be fixed in this version - Refactored Code \n - Removed Logs from code \n - Apply another fix to the blueish / black color (seems to be iOS 16.5 specific problem) \n - Fixed some problems with badge coloring that might occour after a respring" ,
                 "useSpacing": true
             },
             {
