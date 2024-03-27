@@ -36,6 +36,24 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dgla
 SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
 Author: b4db1r3
 
+Package: com.b4db1r3.lockmoji16
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Tweaks (LockScreen)
+Maintainer: b4db1r3
+Installed-Size: 352
+Filename: ./debians/com.b4db1r3.lockmoji16_ROOTLESS.deb
+Size: 10808
+MD5sum: 554058275ae288d1d15faa4c97b1b563
+SHA1: 00b1625f4244cc0670a288fae6a627944faae314
+SHA256: 82bef293d323099e4605959b2f4d09c8103ccdd3b62cef7ca0d1ea3d58fc9935
+SHA512: 2309aa9e5b4cc369631b877c24ec7daf355a1ec85cc8a07869f1f1a020518172090cfe2e2cc6f469059a35bab86c2d89f70a81f0dca9e1a2d8fe303fbc7f225a
+Description: Change your ProudLock on the Dynamic Island to an Emoji or Unicode character.
+Name: LockMoji16 (iOS 16+)
+Depiction:
+SileoDepiction:
+Author: b4db1r3
+
 Package: com.b4db1r3.lstimeseconds16
 Architecture: iphoneos-arm64
 Version: 0.0.5
