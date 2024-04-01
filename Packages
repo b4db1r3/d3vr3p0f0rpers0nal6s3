@@ -240,12 +240,32 @@ Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
 
 Package: com.xyaman.tako
 Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 712
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),  com.mrgcgamer.libgcuniversal,firmware (>= 15.2),com.xyaman.libkuro
+Filename: ./debians/com.xyaman.tako_ROOTLESS.deb
+Size: 90598
+MD5sum: 311a5488694820e8eb09c6a7ced41d8f
+SHA1: 04900e86742a4e5740967b209218258b35512ef2
+SHA256: 217e18ee952fa1c624431e5ae60b7e1b8c2689f72859ca8d52b481fddc5f7cac
+SHA512: e87c271730e47a9c6da6a85acb491f9de98b35d5cdc785bd4ff73842c6b48a48e91c8b5bc19c833068149f3e2fe1972db2a043719ef93ff0559b24c8fe9f139c
+Description: Notification priority hub tweak.
+Name: Tako ( iOS 15-16 )
+Author: Xyaman & b4db1r3
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.xyaman.tako_ROOTLESS
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.xyaman.tako_ROOTLESS/depiction.json
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+
+Package: com.xyaman.tako
+Architecture: iphoneos-arm64
 Version: 1.0.3
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 748
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),  com.mrgcgamer.libgcuniversal,firmware (>= 15.2),com.xyaman.libkuro
-Filename: ./debians/com.xyaman.tako_ROOTLESS.deb
+Filename: ./debians/com.xyaman.tako_ROOTLESS_1.0.3.deb
 Size: 89864
 MD5sum: 555e906564ecf2687c8efde2a55f1cf1
 SHA1: da9862d832672417964b1c8f164205b343a7a595

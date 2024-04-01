@@ -112,6 +112,23 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.0.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed Grouped View In iOS16 (Now its Part of Always On Display) - \n - Added Nice Fade Out Animation For Grouped View \n - Fixed When Selecting a Cell And Leaveing it Selected, When Phone Locks Cell Remain Selected, Which - In Results Need to Press 2 Times To Unselect and Select Again. Now it Will Unselect Itself When Phone Is Locked \n - Some Code Modifications, Removed Logs, Refactored Some Methods",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "01/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.3",
           "useBoldText": true,
           "useBottomMargin": false
