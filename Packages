@@ -100,14 +100,15 @@ Maintainer: b4db1r3
 Installed-Size: 424
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debians/com.b4db1r3.outlookfullname_ROOTLESS.deb
-Size: 83564
-MD5sum: d76250ba62214a24c799cb9ed1b76e3b
-SHA1: d8f6dd87a8d47f9415c2995c1443ffe10dbbd4d8
-SHA256: 6d0da42c8fc25f443c9807e9d930781e4a60813c0d2fb132e283603cf05a6774
-SHA512: 7a13f13d00452666d15c79fc848487270c27bc3da4b256bde60f724b86c8451a6a1f40872c58929301ae64dc5ce1aec509bbf60fbb390e544ebbc209f960b01f
-Description: An awesome MobileSubstrate tweak!
-Name: outlookfullname
+Size: 83676
+MD5sum: a1dc0ca44fcd6630a60980e478d005a3
+SHA1: ee75fd91f9e1c7db830e643c0cf6d4bafe753d33
+SHA256: e7760abadaf48565acf827815cc485512026cc7585d9a0a7f996aa5a32c94507
+SHA512: 7646c7740f7023f28ab92908541f894f1e32aa9dda608196bb044d8667b4cc853c68d3e616d88936f38760e4d714145af89ab481f709c69b4f65c33fab496d4a
+Description: This Tweak will let you replace the 2 characters in all outlook banners to whatever you want.
+Name: OutlookFullName
 Author: b4db1r3
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.outlookfullname_ROOTLESS/depiction.json
 
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm
