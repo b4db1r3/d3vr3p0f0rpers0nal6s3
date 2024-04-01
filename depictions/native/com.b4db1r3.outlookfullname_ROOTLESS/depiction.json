@@ -17,7 +17,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<p>OutlookFullName allows you to customize the two characters in the banners, enabling you to replace them with any string you desire. It bothers me that I can't understand shit from the mailbox or mail descriptions based on just one or two characters.<\\/p>",
+                    "markdown": "<p>OutlookFullName allows you to customize the two characters in the banners, enabling you to replace them with any string you desire. It bothers me that I can't understand shit from the mailbox or mail descriptions based on just one or two characters \n\n\n\n - How To USE: \n * In the tweak preferences, write the character(s) you want to replace and then : , to replace multiple, seperate it using ',' \n\n\n -EXAMPLE: \n D:OK,Z:FINE,PK:PainKiller,EC:ETC.<\\/p>",
                     "useRawFormat": true
                 },
                 {
@@ -27,8 +27,23 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot of LSTimeSeconds",
-                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/RPReplay_Final1708463164.gif?raw=true",
-                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/RPReplay_Final1708463164.gif?raw=true"
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0071.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0071.jpg?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot of LSTimeSeconds",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0070.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0070.jpg?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot of LSTimeSeconds",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0072.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0072.jpg?raw=true"
+                        },
+                        {
+                            "accessibilityText": "Screenshot of LSTimeSeconds",
+                            "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0073.jpg?raw=true",
+                            "fullSizeURL": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/OutlookFullName/IMG_0073.jpg?raw=true"
                         }
                     ]
                 },
@@ -49,7 +64,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "0.2"
+                    "text": "1.0"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -86,22 +101,11 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "0.0.2"
+                    "title": "1.0"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Added Preferences To Configure 24/12 Hour Clock (Respring After) \n - Fixed Pref Name in Settings",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "useBoldText": true,
-                    "useBottomMargin": false,
-                    "title": "0.0.1"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release. \n  - Rewrote the tweak for iOS 16+.",
+                    "markdown": "Initial Release",
                     "useRawFormat": true
                 }
             ]
