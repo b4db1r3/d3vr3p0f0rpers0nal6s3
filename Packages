@@ -92,6 +92,23 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd_R
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd_ROOTLESS/depiction.json
 Author: b4db1r3
 
+Package: com.b4db1r3.outlookfullname
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/com.b4db1r3.outlookfullname_ROOTLESS.deb
+Size: 83564
+MD5sum: d76250ba62214a24c799cb9ed1b76e3b
+SHA1: d8f6dd87a8d47f9415c2995c1443ffe10dbbd4d8
+SHA256: 6d0da42c8fc25f443c9807e9d930781e4a60813c0d2fb132e283603cf05a6774
+SHA512: 7a13f13d00452666d15c79fc848487270c27bc3da4b256bde60f724b86c8451a6a1f40872c58929301ae64dc5ce1aec509bbf60fbb390e544ebbc209f960b01f
+Description: An awesome MobileSubstrate tweak!
+Name: outlookfullname
+Author: b4db1r3
+
 Package: com.b4db1r3.rgproud
 Architecture: iphoneos-arm
 Version: 0.1
