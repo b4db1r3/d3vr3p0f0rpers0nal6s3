@@ -36,6 +36,23 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dgla
 SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
 Author: b4db1r3
 
+Package: com.b4db1r3.forceremoveapplibrarylabels
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/com.b4db1r3.forceremoveapplibrarylabels_ROOTLESS.deb
+Size: 4726
+MD5sum: c40885138cdba700d22b0109a7711909
+SHA1: f96a367af22df064cc615eed8a05c005c45d707a
+SHA256: 6a9bea8bcb9d305f8f069a89052bccbec503c790f0074c22744d4cf43d343f21
+SHA512: dc0c6396e03893386235325aa4b4a07a373cd124d661c856d7374a7c510c63a5fc0c631bd6518fed55297903c077feee5fe7bbce1d315f0f293aba3232c0e454
+Description: When using ShowDoclLabels! tweak, it is also bugging out the app library lables. this tweak will fix it. theres no option for this tweak.
+Name: Force Remove AppLibrary Pod Category Labels
+Author: b4db1r3
+
 Package: com.b4db1r3.lockmoji16
 Architecture: iphoneos-arm64
 Version: 0.1
