@@ -10,15 +10,23 @@
           "screenshots": [
             {
               "accessibilityText": "Screenshot",
-              "url": "https://skitty.xyz/repo/depictions/xyz.skitty.sushi/screenshots/1.png"
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Omakase/IMG_2144.jpg?raw=true"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://skitty.xyz/repo/depictions/xyz.skitty.sushi/screenshots/2.png"
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Omakase/IMG_2145.jpg?raw=true"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://skitty.xyz/repo/depictions/xyz.skitty.sushi/screenshots/3.png"
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Omakase/IMG_2146.jpg?raw=true"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Omakase/IMG_2148.jpg?raw=true"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/Omakase/IMG_2149.jpg?raw=true"
             }
           ],
           "class": "DepictionScreenshotsView",
@@ -28,7 +36,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "*Supports iOS 15 through 17*\n\nSushi presents a custom banner that can be expanded into a media control view when the currently playing song changes.\n\nBoth the function and appearance of Sushi can be tweaked in the included preference page.\n"
+          "markdown": "*Supports iOS 15 through 17*\n\n Omakase is a remix for Skittyblock's Sushi tweak\n\n *Features* \n\n - Artwork view when media is playing \n\n - Expandable with click on the artwork to reveal media controls \n\n - White mode / Artwork color as backgrond / Transperency mode \n\n - Long click to open current music playing \n\n - X Button to close the view when you feel like! "
         },
         {
           "class": "DepictionSeparatorView"
@@ -40,17 +48,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "Developer",
-          "text": "Skitty"
+          "text": "Skitty & bedb1r3"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0"
+          "text": "0.1.1"
         },
         {
           "class": "DepictionTableTextView",
           "title": "iOS Versions",
-          "text": "13.0 - 17.3.1"
+          "text": "15.0 - 17 Rootless"
         }
       ]
     },
@@ -65,31 +73,13 @@
               "fontSize": 16,
               "class": "DepictionLabelView",
               "fontWeight": "bold",
-              "text": "1.0.1"
+              "text": "0.0.1"
             }
           ]
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Add banner album art and disable auto dismiss settings\n- Fix iPad support\n- Fix app icon issues\n- Fix animation bug while dragging\n- Other small bug fixes."
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionLayerView",
-          "views": [
-            {
-              "fontSize": 16,
-              "class": "DepictionLabelView",
-              "fontWeight": "bold",
-              "text": "1.0"
-            }
-          ]
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Initial release."
+          "markdown": "*- Initial Release*"
         }
       ]
     }

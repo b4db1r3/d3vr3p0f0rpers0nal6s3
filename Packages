@@ -109,6 +109,25 @@ Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.ocd_R
 SileoDepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/com.b4db1r3.ocd_ROOTLESS/depiction.json
 Author: b4db1r3
 
+Package: com.b4db1r3.omakase
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debians/com.b4db1r3.omakase_ROOTLESS.deb
+Size: 161358
+MD5sum: a7c992f9e6b035ce943515aa5c9a2165
+SHA1: 72fe7bdd4f7cbea3391f947703aa90de66a4f6f9
+SHA256: 226657e360f2b301ad2233da446b8911546db1509b822f0c15a0ece95feb693f
+SHA512: 1ae6b8ae49bf13511a285c8054c77c8888958916b6e67ac75d879136d5715a4b62c09c3015ea0cef4e473e3a20ccbf0f30d88420191ae41dd3d174e8e48c39ee
+Description: Now playing card, with expandable when clicked!
+Name: Omakase
+Author: Skitty & b4db1r3
+Icon: https://github.com/b4db1r3/d3vr3p0/blob/main/Icons/Sileo/icon_sileo_Omakase.png?raw=true
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.omakase_ROOTLESS/depiction.json
+
 Package: com.b4db1r3.outlookfullname
 Architecture: iphoneos-arm64
 Version: 1.0
