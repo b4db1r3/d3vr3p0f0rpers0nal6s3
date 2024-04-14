@@ -1,0 +1,99 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://skitty.xyz/repo/depictions/xyz.skitty.sushi/screenshots/1.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://skitty.xyz/repo/depictions/xyz.skitty.sushi/screenshots/2.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://skitty.xyz/repo/depictions/xyz.skitty.sushi/screenshots/3.png"
+            }
+          ],
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 284}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "*Supports iOS 15 through 17*\n\nSushi presents a custom banner that can be expanded into a media control view when the currently playing song changes.\n\nBoth the function and appearance of Sushi can be tweaked in the included preference page.\n"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "Skitty"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions",
+          "text": "13.0 - 17.3.1"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "fontSize": 16,
+              "class": "DepictionLabelView",
+              "fontWeight": "bold",
+              "text": "1.0.1"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Add banner album art and disable auto dismiss settings\n- Fix iPad support\n- Fix app icon issues\n- Fix animation bug while dragging\n- Other small bug fixes."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "fontSize": 16,
+              "class": "DepictionLabelView",
+              "fontWeight": "bold",
+              "text": "1.0"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Initial release."
+        }
+      ]
+    }
+  ],
+  "headerImage": "https://skitty.xyz/repo/banners/xyz.skitty.sushi.png",
+  "tintColor": "#e36474"
+}
