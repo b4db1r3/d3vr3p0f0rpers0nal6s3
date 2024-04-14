@@ -64,7 +64,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.1"
+          "text": "2.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -74,7 +74,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Last update",
-          "text": "25/02/2024"
+          "text": "14/04/2024"
         },
         {
           "class": "DepictionTableTextView",
@@ -110,6 +110,23 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " - Fixed some visual glitches with the new styles ",
+          "useSpacing": true 
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "14/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0",
