@@ -117,11 +117,11 @@ Maintainer: b4db1r3
 Installed-Size: 1028
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debians/com.b4db1r3.omakase_ROOTLESS.deb
-Size: 161358
-MD5sum: a7c992f9e6b035ce943515aa5c9a2165
-SHA1: 72fe7bdd4f7cbea3391f947703aa90de66a4f6f9
-SHA256: 226657e360f2b301ad2233da446b8911546db1509b822f0c15a0ece95feb693f
-SHA512: 1ae6b8ae49bf13511a285c8054c77c8888958916b6e67ac75d879136d5715a4b62c09c3015ea0cef4e473e3a20ccbf0f30d88420191ae41dd3d174e8e48c39ee
+Size: 161296
+MD5sum: 70d3b97958234cde273dfa2f0525b944
+SHA1: d077955cc6be34c0566578ae335913f10e317346
+SHA256: 4ebabe3818814f38a99519cf5e32a6c8733d46034f5072afded29f5fb7a49ace
+SHA512: e7dce0c5131b6bf3d3bd6cb54ca812aefbb75786b3c292fd6bd9eb74a7e33e16958e7d33d1bbaec3f7255550d5cf9a451dd54015c9890940c8cd584c4b5f01cc
 Description: Now playing card, with expandable when clicked!
 Name: Omakase
 Author: Skitty & b4db1r3
