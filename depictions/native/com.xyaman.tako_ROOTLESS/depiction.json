@@ -112,6 +112,23 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " - Added 2 new styles: \n a. Android Style \n b. Axon w/ red notifications \n\n\n\n - Fixed some visual glitches with grouped view \n - Fixed grouped view appearing when phone is unlocked and user is pulling down to see the NC/LC \n - Edited some of the already styles with design tweaks  \n - Edit max grouped view icons to 30  \n - Edit icon cell space to min of -15 to be used with android style \n - Infrastructure for Vertical layout, not yet implemented",
+          "useSpacing": true 
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "14/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.0.5",
           "useBoldText": true,
           "useBottomMargin": false
