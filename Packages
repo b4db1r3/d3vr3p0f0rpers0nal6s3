@@ -226,16 +226,16 @@ Maintainer: b4db1r3
 Installed-Size: 644
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis (>= 1.0)
 Filename: ./debians/com.lacertosusrepo.navale_ROOTLESS.deb
-Size: 95760
-MD5sum: d4cc880ff6451a7706a37352b7b76f8b
-SHA1: 6f9c62bb947ea94d194ec2cf148a627a5608af5c
-SHA256: 5038a1e41572cf230b00ed2f77e2254dae4511efdf5d6d9f793bac54fb5831e1
-SHA512: 98e0d51c99e2191c5f7f5b0a78f84711c09d2c29aada78462c450520a47f3c2127c5279c94e8806c2c1ec85f981cdd55cfebdea858cb5daea973e6d22c5a219d
+Size: 95786
+MD5sum: f84cf3a33831cebfb499f178d5c361e2
+SHA1: 932c0fb149ba6879ec574086e56626da89f29cc6
+SHA256: 27ac5df8e840b2d0ac7532b9cc16b2fea314cef7c3ef2f035797d4fbdeeba2a3
+SHA512: e1610a48d1cfab87eaecc51088d77595c1d07ef8fe9b4719701019d259615ebe874828e999d20530f70362b287e6af4304f97b8e88f80583de2a3bdf988763d2
 Description: Add a gradient to your dock!
 Name: Navale
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
-SileoDepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Depiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.lacertosusrepo.navale_ROOTLESS/depiction.json
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.lacertosusrepo.navale_ROOTLESS/depiction.json
 
 Package: com.noisyflake.cozybadges
 Architecture: iphoneos-arm64
