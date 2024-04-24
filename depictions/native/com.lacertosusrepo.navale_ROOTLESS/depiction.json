@@ -1,7 +1,7 @@
 {
   "class": "DepictionTabView",
-  "headerImage": "https://preview.redd.it/xjziox9yj6kc1.jpg?width=2048&format=pjpg&auto=webp&s=c1c327f47278314c902873da7461e238567a17e8",
-  "tintColor": "#FFA500",
+  "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/Navale/Asset%201@3x.png?raw=true",
+  "tintColor": "#128194",
   "minVersion": "0.1",
   "tabs": [
     {
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionLabelView",
-          "text": "Notification priority hub. An alternative to Grupi and Axon.",
+          "text": "Add a gradient to your dock!",
           "fontWeight": "medium"
         },
         {
@@ -23,12 +23,8 @@
           "itemSize": "{192, 256}",
           "screenshots": [
             {
-              "accessibilityText": "Screenshot 1",
-              "url": "https://preview.redd.it/xjziox9yj6kc1.jpg?width=2048&format=pjpg&auto=webp&s=c1c327f47278314c902873da7461e238567a17e8"
-            },
-            {
               "accessibilityText": "Screenshot 2",
-              "url": "https://preview.redd.it/vvncj9vzj6kc1.jpg?width=960&format=pjpg&auto=webp&s=559b1661e33f568ab0af335d3a2cbb4bab989291"
+              "url": ""
             }
           ]
         },
