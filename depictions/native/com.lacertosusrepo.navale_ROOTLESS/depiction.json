@@ -41,7 +41,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Horizontal / Vertical .\n- 2 Colors Gradient. \n- Supports Both FloatyDock & Stock Dock \n - Border Options \n - Override Corner Radius",
+          "markdown": "- Horizontal / Vertical.\n- 2 Colors Gradient.\n- Supports Both FloatyDock & Stock Dock.\n- Border Options.\n- Override Corner Radius.",
           "useSpacing": true
         },
         {
@@ -65,7 +65,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "iOS Version",
-          "text": "iOS >= 15.0 "
+          "text": "iOS >= 15.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -91,12 +91,12 @@
           "action": "https://github.com/b4db1r3"
         },
         {
-          "class": "Reddit",
+          "class": "DepictionTableButtonView",
           "title": "Reddit",
           "action": "https://www.reddit.com/user/_b4db1r3_"
         },
         {
-          "class": "Twitter",
+          "class": "DepictionTableButtonView",
           "title": "Twitter",
           "action": "https://twitter.com/b4db1r3"
         }
@@ -114,8 +114,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Inital Rootless release.",
-          "useSpacing": true 
+          "markdown": "Initial Rootless release.",
+          "useSpacing": true
         }
       ]
     }
