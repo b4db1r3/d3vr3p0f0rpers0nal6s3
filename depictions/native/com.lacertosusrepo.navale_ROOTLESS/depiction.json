@@ -24,13 +24,13 @@
           "screenshots": [
             {
               "accessibilityText": "Screenshot 2",
-              "url": ""
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweak%20Image%20Headers/Navale/Screenshots.jpg?raw=true"
             }
           ]
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Groups your notifications.\n",
+          "markdown": "Add a gradient to your dock with style!\n",
           "useSpacing": true
         },
         {
@@ -41,7 +41,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Different styles.\n- Adaptative color. \n- Swipe gestures to remove your notifications",
+          "markdown": "- Horizontal / Vertical .\n- 2 Colors Gradient. \n- Supports Both FloatyDock & Stock Dock \n - Border Options \n - Override Corner Radius",
           "useSpacing": true
         },
         {
@@ -60,22 +60,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "2.2"
+          "text": "3.0"
         },
         {
           "class": "DepictionTableTextView",
           "title": "iOS Version",
-          "text": "iOS >= 15.2 && > 16.0 "
+          "text": "iOS >= 15.0 "
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Last update",
-          "text": "14/04/2024"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Release date",
-          "text": "23/02/2024"
+          "title": "Release Date",
+          "text": "24/04/2024"
         },
         {
           "class": "DepictionTableTextView",
@@ -99,6 +94,11 @@
           "class": "Reddit",
           "title": "Reddit",
           "action": "https://www.reddit.com/user/_b4db1r3_"
+        },
+        {
+          "class": "Twitter",
+          "title": "Twitter",
+          "action": "https://twitter.com/b4db1r3"
         }
       ]
     },
@@ -108,114 +108,14 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "2.2",
+          "title": "3.0",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": " - Fixed some visual glitches with the new styles ",
+          "markdown": "Inital Rootless release.",
           "useSpacing": true 
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "14/04/2024",
-          "textColor": "gray",
-          "margins": "{8, 16, 16, 16}"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "2.0",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": " - Added 2 new styles: \n a. Android Style \n b. Axon w/ red notifications \n\n\n\n - Fixed some visual glitches with grouped view \n - Fixed grouped view appearing when phone is unlocked and user is pulling down to see the NC/LC \n - Edited some of the already styles with design tweaks  \n - Edit max grouped view icons to 30  \n - Edit icon cell space to min of -15 to be used with android style \n - Infrastructure for Vertical layout, not yet implemented",
-          "useSpacing": true 
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "14/04/2024",
-          "textColor": "gray",
-          "margins": "{8, 16, 16, 16}"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.5",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Fixed Grouped View In iOS16 (Now its Part of Always On Display) - \n - Added Nice Fade Out Animation For Grouped View \n - Fixed When Selecting a Cell And Leaveing it Selected, When Phone Locks Cell Remain Selected, Which - In Results Need to Press 2 Times To Unselect and Select Again. Now it Will Unselect Itself When Phone Is Locked \n - Some Code Modifications, Removed Logs, Refactored Some Methods",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "01/04/2024",
-          "textColor": "gray",
-          "margins": "{8, 16, 16, 16}"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.3",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Added an option to force bypass AutoUnlockX if you have toggled OFF 'Disable if Notifications'",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "27/02/2024",
-          "textColor": "gray",
-          "margins": "{8, 16, 16, 16}"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.2",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Fix AutoUnlocX Problem, Now Will Only Unlock If No Notification Present.\n - Limit Y Axis View's to -15, View is not suppose to be above/overlap/inside the clock view. shouldnt had this option from the beginning.\n - Fixed some edge respring case \n - Tweak is not working on iOS 15.0-15.1.1 and iOS 16.0 (DO NOT INSTALL IF ON THOSE VERSIONS)\n - Added firmware (>= 15.2) | firmware (> 16.0) | firmware (< 17.0) to control file until a fix will be found (meaning: you won't be able to install the tweak on those versions)",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "25/02/2024",
-          "textColor": "gray",
-          "margins": "{8, 16, 16, 16}"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.0",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.0",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Initial release",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "23/02/2024",
-          "textColor": "gray",
-          "margins": "{8, 16, 16, 16}"
         }
       ]
     }
