@@ -112,6 +112,23 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " - Fully fixed visual glitches of Android style \n - Added full icon with red notification style \n - Various code refactor",
+          "useSpacing": true 
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "24/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.2",
           "useBoldText": true,
           "useBottomMargin": false
