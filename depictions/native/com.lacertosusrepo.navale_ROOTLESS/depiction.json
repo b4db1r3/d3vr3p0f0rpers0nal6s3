@@ -1,0 +1,227 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://preview.redd.it/xjziox9yj6kc1.jpg?width=2048&format=pjpg&auto=webp&s=c1c327f47278314c902873da7461e238567a17e8",
+  "tintColor": "#FFA500",
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionLabelView",
+          "text": "Notification priority hub. An alternative to Grupi and Axon.",
+          "fontWeight": "medium"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{192, 256}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot 1",
+              "url": "https://preview.redd.it/xjziox9yj6kc1.jpg?width=2048&format=pjpg&auto=webp&s=c1c327f47278314c902873da7461e238567a17e8"
+            },
+            {
+              "accessibilityText": "Screenshot 2",
+              "url": "https://preview.redd.it/vvncj9vzj6kc1.jpg?width=960&format=pjpg&auto=webp&s=559b1661e33f568ab0af335d3a2cbb4bab989291"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Groups your notifications.\n",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Different styles.\n- Adaptative color. \n- Swipe gestures to remove your notifications",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Maintainer",
+          "text": "b4db1r3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "FREE"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "2.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Version",
+          "text": "iOS >= 15.2 && > 16.0 "
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Last update",
+          "text": "14/04/2024"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Release date",
+          "text": "23/02/2024"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Category",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "SoundCloud",
+          "action": "https://soundcloud.com/skinnykat"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/b4db1r3"
+        },
+        {
+          "class": "Reddit",
+          "title": "Reddit",
+          "action": "https://www.reddit.com/user/_b4db1r3_"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " - Fixed some visual glitches with the new styles ",
+          "useSpacing": true 
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "14/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": " - Added 2 new styles: \n a. Android Style \n b. Axon w/ red notifications \n\n\n\n - Fixed some visual glitches with grouped view \n - Fixed grouped view appearing when phone is unlocked and user is pulling down to see the NC/LC \n - Edited some of the already styles with design tweaks  \n - Edit max grouped view icons to 30  \n - Edit icon cell space to min of -15 to be used with android style \n - Infrastructure for Vertical layout, not yet implemented",
+          "useSpacing": true 
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "14/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed Grouped View In iOS16 (Now its Part of Always On Display) - \n - Added Nice Fade Out Animation For Grouped View \n - Fixed When Selecting a Cell And Leaveing it Selected, When Phone Locks Cell Remain Selected, Which - In Results Need to Press 2 Times To Unselect and Select Again. Now it Will Unselect Itself When Phone Is Locked \n - Some Code Modifications, Removed Logs, Refactored Some Methods",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "01/04/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added an option to force bypass AutoUnlockX if you have toggled OFF 'Disable if Notifications'",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "27/02/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix AutoUnlocX Problem, Now Will Only Unlock If No Notification Present.\n - Limit Y Axis View's to -15, View is not suppose to be above/overlap/inside the clock view. shouldnt had this option from the beginning.\n - Fixed some edge respring case \n - Tweak is not working on iOS 15.0-15.1.1 and iOS 16.0 (DO NOT INSTALL IF ON THOSE VERSIONS)\n - Added firmware (>= 15.2) | firmware (> 16.0) | firmware (< 17.0) to control file until a fix will be found (meaning: you won't be able to install the tweak on those versions)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "25/02/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "23/02/2024",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        }
+      ]
+    }
+  ]
+}
