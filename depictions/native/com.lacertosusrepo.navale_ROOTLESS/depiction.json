@@ -108,6 +108,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "3.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed border color \n - Fixed original dock background interfere with custom corner radius when using custom corner raduis \n - Added a check so it wont effect Search Pill",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "3.0",
           "useBoldText": true,
           "useBottomMargin": false
