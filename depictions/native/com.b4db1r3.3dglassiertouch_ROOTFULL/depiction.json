@@ -1,179 +1,189 @@
 {
-    "class": "DepictionTabView",
-    "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/1.png?raw=true",
-    "tintColor": "#b28ff2",
-    "minVersion": "0.1",
-    "tabs": [
-      {
-        "class": "DepictionStackView",
-        "tabname": "Details",
-        "views": [
-          {
-            "class": "DepictionLabelView",
-            "text": "Make 3D Menu Elegant",
-            "fontWeight": "medium"
-          },
-          {
-            "class": "DepictionSpacerView",
-            "spacing": 8
-          },
-          {
-            "class": "DepictionScreenshotsView",
-            "itemCornerRadius": 6,
-            "itemSize": "{192, 256}",
-            "screenshots": [
-              {
-                "accessibilityText": "Screenshot 1",
-                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0828.jpg?raw=true"
-              },
-              {
-                "accessibilityText": "Screenshot 2",
-                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0833.jpg?raw=true"
-              },
-              {
-                "accessibilityText": "Screenshot 3",
-                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0827.PNG?raw=true"
-              },
-              {
-                "accessibilityText": "Screenshot 4",
-                "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0822.jpg?raw=true"
-              }
-            ]
-          },
-          {
-            "class": "DepictionMarkdownView",
-            "markdown": "This tweak will let you control every aspect od 3D touch menus, using dynamic colors.\n",
-            "useSpacing": true
-          },
-          {
-            "class": "DepictionHeaderView",
-            "title": "Features",
-            "useBoldText": true,
-            "useBottomMargin": false
-          },
-          {
-            "class": "DepictionMarkdownView",
-            "markdown": "- Individual change of the color based on app icon of every element (separators, background,labels)\n- Control width and thickness of seperators \n- Control corner radius of borders, and thickness \n- Dynamic cell hiding\n- Lockscreen & Homescreen separated configurations\n- Dual Coloring Options\n- Many options to configure\n- Support from iOS 15 to iOS 17",
-            "useSpacing": true
-          },
-          {
-            "class": "DepictionSeparatorView"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "Developer",
-            "text": "b4db1r3"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "Price",
-            "text": "1.5$"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "Version",
-            "text": "1.5"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "iOS Version",
-            "text": "iOS 15.0 to 17.0"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "Last update",
-            "text": "07/12/2023"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "Release date",
-            "text": "06/12/2023"
-          },
-          {
-            "class": "DepictionTableTextView",
-            "title": "Category",
-            "text": "Tweaks"
-          },
-          {
-            "class": "DepictionSeparatorView"
-          },
-          {
-            "class": "DepictionTableButtonView",
-            "title": "SoundCloud",
-            "action": "https://soundcloud.com/skinnykat"
-          },
-          {
-            "class": "DepictionTableButtonView",
-            "title": "GitHub",
-            "action": "https://github.com/b4db1r3"
-          },
-          {
-            "class": "Reddit",
-            "title": "Reddit",
-            "action": "https://www.reddit.com/user/_b4db1r3_"
-          }
-        ]
-      },
-      {
-        "class": "DepictionStackView",
-        "tabname": "Changelog",
-        "views": [
-          {
-            "class": "DepictionSubheaderView",
-            "title": "v1.6.1",
-            "useBoldText": true,
-            "useBottomMargin": false
-          },
-          {
-            "class": "DepictionMarkdownView",
-            "markdown": "- Fixed Separators Hidden Logic, now its should only effect 3d context & Hooks \n- fixed 3d expanded notification on homescreen, now its merged with homescreen settings \n- added changelog button next to the gear icon",
-            "useSpacing": true
-          },
-          {
-            "class": "DepictionLabelView",
-            "text": "08/12/2023",
-            "textColor": "gray",
-            "margins": "{8, 16, 16, 16}"
-          },
-          {
-            "class": "DepictionSubheaderView",
-            "title": "v1.5",
-            "useBoldText": true,
-            "useBottomMargin": false
-          },
-          {
-            "class": "DepictionMarkdownView",
-            "markdown": "- Fixed iOS 16 Support & Hooks \n- Added Proper Description",
-            "useSpacing": true
-          },
-          {
-            "class": "DepictionLabelView",
-            "text": "07/12/2023",
-            "textColor": "gray",
-            "margins": "{8, 16, 16, 16}"
-          },
-          {
-            "class": "DepictionSeparatorView"
-          },
-          {
-            "class": "DepictionSubheaderView",
-            "title": "1.0",
-            "useBoldText": true,
-            "useBottomMargin": false
-          },
-          {
-            "class": "DepictionMarkdownView",
-            "markdown": "- Initial release",
-            "useSpacing": true
-          },
-          {
-            "class": "DepictionLabelView",
-            "text": "06/12/2023",
-            "textColor": "gray",
-            "margins": "{8, 16, 16, 16}"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "class": "DepictionTabView",
+  "headerImage": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/1.png?raw=true",
+  "tintColor": "#b28ff2",
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionLabelView",
+          "text": "Make 3D Menu Elegant",
+          "fontWeight": "medium"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{192, 256}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot 1",
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0828.jpg?raw=true"
+            },
+            {
+              "accessibilityText": "Screenshot 2",
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0833.jpg?raw=true"
+            },
+            {
+              "accessibilityText": "Screenshot 3",
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0827.PNG?raw=true"
+            },
+            {
+              "accessibilityText": "Screenshot 4",
+              "url": "https://github.com/b4db1r3/d3vr3p0/blob/main/Tweaks%20Screenshots/3DGlassier/IMG_0822.jpg?raw=true"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "This tweak will let you control every aspect od 3D touch menus, using dynamic colors.\n",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Individual change of the color based on app icon of every element (separators, background,labels)\n- Control width and thickness of seperators \n- Control corner radius of borders, and thickness \n- Dynamic cell hiding\n- Lockscreen & Homescreen separated configurations\n- Dual Coloring Options\n- Many options to configure\n- Support from iOS 15 to iOS 17",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "b4db1r3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "FREE"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "2.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Version",
+          "text": "iOS 15.0 to 17.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Last update",
+          "text": "26/04/2024"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Release date",
+          "text": "06/12/2023"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Category",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "SoundCloud",
+          "action": "https://soundcloud.com/skinnykat"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/b4db1r3"
+        },
+        {
+          "class": "Reddit",
+          "title": "Reddit",
+          "action": "https://www.reddit.com/user/_b4db1r3_"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v2.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Made the tweak free, for now. \n - Removed option to hide Separators, as its not alinged with tweak spirit \n - Deleted unnecessary hooks \n- Rewrote preferences from scratch \n- Fixed coloring for all elements \n - Fixed all Separators bugs \n Fixed all background coloring bugs \n - Fixed Alert Controller hooks, now it wont effect on regular iOS alert Separators, only for 3D Touch \n - Rewrote many Methods, and make preformance tuning \n - Better color detection \n - Fixed Safe Mode on iOS16 \n - Fixed edge Respring cases",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v1.6.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed Separators Hidden Logic, now its should only effect 3d context & Hooks \n- fixed 3d expanded notification on homescreen, now its merged with homescreen settings \n- added changelog button next to the gear icon",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "08/12/2023",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v1.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed iOS 16 Support & Hooks \n- Added Proper Description",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "07/12/2023",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "06/12/2023",
+          "textColor": "gray",
+          "margins": "{8, 16, 16, 16}"
+        }
+      ]
+    }
+  ]
+}

@@ -67,12 +67,12 @@
           {
             "class": "DepictionTableTextView",
             "title": "Price",
-            "text": "1.5$"
+            "text": "FREE"
           },
           {
             "class": "DepictionTableTextView",
             "title": "Version",
-            "text": "1.5"
+            "text": "2.0"
           },
           {
             "class": "DepictionTableTextView",
@@ -82,7 +82,7 @@
           {
             "class": "DepictionTableTextView",
             "title": "Last update",
-            "text": "07/12/2023"
+            "text": "26/04/2024"
           },
           {
             "class": "DepictionTableTextView",
@@ -118,6 +118,17 @@
         "class": "DepictionStackView",
         "tabname": "Changelog",
         "views": [
+          {
+            "class": "DepictionSubheaderView",
+            "title": "v2.0",
+            "useBoldText": true,
+            "useBottomMargin": false
+          },
+          {
+            "class": "DepictionMarkdownView",
+            "markdown": "- Made the tweak free, for now. \n - Removed option to hide Separators, as its not alinged with tweak spirit \n - Deleted unnecessary hooks \n- Rewrote preferences from scratch \n- Fixed coloring for all elements \n - Fixed all Separators bugs \n Fixed all background coloring bugs \n - Fixed Alert Controller hooks, now it wont effect on regular iOS alert Separators, only for 3D Touch \n - Rewrote many Methods, and make preformance tuning \n - Better color detection \n - Fixed Safe Mode on iOS16 \n - Fixed edge Respring cases",
+            "useSpacing": true
+          },
           {
             "class": "DepictionSubheaderView",
             "title": "v1.6.1",

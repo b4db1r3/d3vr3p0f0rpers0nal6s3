@@ -1,11 +1,30 @@
 Package: com.b4db1r3.3dglassiertouch
 Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 5432
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, org.thebigboss.libcolorpicker, preferenceloader
+Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTFULL.deb
+Size: 4570986
+MD5sum: 87da3d27dea3a9871f56cf6e5e7dc34e
+SHA1: 737b2ae160463661bab4a3988587f54ee2724b1a
+SHA256: 6e045230c7bb3b2d7920680b3fd397e1cd0975e78a48225dd004dd47f3f3896a
+SHA512: 45ee14bb1c021ec386a6a0e63dd520ca75f8e884b9688eb1408505829106843860105679b8e7f9e4ade11bdbfb4f34e4d6b457c1a36caf4ec9b6bca03420cf48
+Description: 3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!
+Name: 3DGlassierTouch
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dglassiertouch_ROOTLESS
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
+Author: b4db1r3
+
+Package: com.b4db1r3.3dglassiertouch
+Architecture: iphoneos-arm
 Version: 1.6.1
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 5444
 Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, org.thebigboss.libcolorpicker
-Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTFULL.deb
+Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTFULL_1.deb
 Size: 4560600
 MD5sum: 0e004ac1b79db82416b81b806ecc84e9
 SHA1: 03f22d38bf5c1c049ee3e990ef93ac93ff979759
@@ -19,12 +38,31 @@ Author: b4db1r3
 
 Package: com.b4db1r3.3dglassiertouch
 Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 5432
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, org.thebigboss.libcolorpicker, preferenceloader
+Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTLESS.deb
+Size: 4570694
+MD5sum: 19619f6971ebbdef87b2081634d966bd
+SHA1: f23f70f22ba67c55d4f8617e872beb2500880a7c
+SHA256: 1af0dff2a542467b338c7b17177cc4e1926264046ad9a9a31b489fb4cf0a1dda
+SHA512: 10c2e0437d808f508a4136c52211e8a0226d2d58c2d3e69904212e35085aa4d61db79cf50c43b4cb9d91c8aac9d3f4edebd4d752a58cdfe9313db93286eddf0a
+Description: 3DGlassierTouch enhances your iOS experience by dynamically customizing 3D context menus. It features adaptive coloring based on app icons, customizable separators, and a refined glassier background effect for both the lockscreen and homescreen. Tailor thickness, color, and radius to suit your style, with distinct settings for each screen. Experience a sleek, personalized touch with every interaction!
+Name: 3DGlassierTouch
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=com.b4db1r3.3dglassiertouch_ROOTLESS
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.b4db1r3.3dglassiertouch_ROOTLESS/depiction.json
+Author: b4db1r3
+
+Package: com.b4db1r3.3dglassiertouch
+Architecture: iphoneos-arm64
 Version: 1.6.1
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 5444
 Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, org.thebigboss.libcolorpicker
-Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTLESS.deb
+Filename: ./debians/com.b4db1r3.3dglassiertouch_ROOTLESS_1.deb
 Size: 4560468
 MD5sum: 229d28cb70fdae1b310239909dc46514
 SHA1: 5966885ee600975aed2a189d98de19e3ee23770b
