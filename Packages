@@ -220,12 +220,31 @@ Author: b4db1r3
 
 Package: com.lacertosusrepo.navale
 Architecture: iphoneos-arm64
+Version: 3.5
+Section: Tweaks
+Maintainer: b4db1r3
+Installed-Size: 640
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis (>= 1.0)
+Filename: ./debians/com.lacertosusrepo.navale_ROOTLESS.deb
+Size: 94954
+MD5sum: 15a8669f7efccf041610a53b91fd1de1
+SHA1: 0f03077dd2ba9dbfc17cecc48030db3137789c4e
+SHA256: a194fc228c829612579ba4c755e1e9f1a102f0169e0de0e3176d173760e9ebef
+SHA512: 0eca9484802361a442d6f6864f681df62be24acabe053b756f6dac0ee6fbf23b5aa1e3f5cb67dd1c2ab4c35910e96a6ae6d7534a18c39461e877ea9d586787e5
+Description: Add a gradient to your dock!
+Name: Navale
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.lacertosusrepo.navale_ROOTLESS/depiction.json
+SileoDepiction: https://raw.githubusercontent.com/b4db1r3/d3vr3p0/main/depictions/native/com.lacertosusrepo.navale_ROOTLESS/depiction.json
+
+Package: com.lacertosusrepo.navale
+Architecture: iphoneos-arm64
 Version: 3.3
 Section: Tweaks
 Maintainer: b4db1r3
 Installed-Size: 644
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis (>= 1.0)
-Filename: ./debians/com.lacertosusrepo.navale_ROOTLESS.deb
+Filename: ./debians/com.lacertosusrepo.navale_ROOTLESS_2.deb
 Size: 96778
 MD5sum: c2c2972e3aae5e26015eb409835d34b1
 SHA1: 35450654499e4646784be3f18edbfa6d639799ed

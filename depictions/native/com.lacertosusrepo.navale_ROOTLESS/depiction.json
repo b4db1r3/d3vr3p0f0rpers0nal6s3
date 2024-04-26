@@ -108,6 +108,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "3.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Full fix to the square search pill problem.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "3.3",
           "useBoldText": true,
           "useBottomMargin": false
