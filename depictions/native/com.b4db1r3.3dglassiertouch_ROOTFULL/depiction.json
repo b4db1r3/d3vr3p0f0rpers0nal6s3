@@ -126,7 +126,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Made the tweak free, for now. \n - Removed option to hide Separators, as its not alinged with tweak spirit \n - Deleted unnecessary hooks \n- Rewrote preferences from scratch \n- Fixed coloring for all elements \n - Fixed all Separators bugs \n Fixed all background coloring bugs \n - Fixed Alert Controller hooks, now it wont effect on regular iOS alert Separators, only for 3D Touch \n - Rewrote many Methods, and make preformance tuning \n - Better color detection \n - Fixed Safe Mode on iOS16 \n - Fixed edge Respring cases",
+          "markdown": "- Temporarily made the tweak free. \n- Removed the option to hide Separators to better align with the tweak's spirit. \n- Deleted unnecessary hooks. \n- Completely rewrote preferences. \n- Fixed coloring for all elements. \n- Resolved all bugs related to Separators. \n- Addressed all background coloring issues. \n- Adjusted Alert Controller hooks to not affect regular iOS alert Separators, only those for 3D Touch. \n- Rewrote many methods and optimized performance. \n- Enhanced color detection. \n- Fixed Safe Mode issues on iOS 16. \n- Addressed edge cases that caused Respring.",
           "useSpacing": true
         },
         {
