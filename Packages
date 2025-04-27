@@ -472,17 +472,17 @@ Author: @fr0st & b4db1r3
 
 Package: tvosblocker
 Architecture: appletvos-arm64
-Version: 1.0-11+debug
+Version: 1.0-13+debug
 Section: System
 Maintainer: Kevin Bradley
-Installed-Size: 72
+Installed-Size: 0
 Depends: mobilesubstrate
-Filename: ./debians/tvosblocker_1.0-11+debug_appletvos-arm64.deb
-Size: 4676
-MD5sum: 1775bbf01a2b6f1ac217a3cb51614795
-SHA1: dd85b0b048094cf961733391b27cabf4d6d1ad3e
-SHA256: f7890af15236b96571ffdad285242b23557e787b08b08820b3ba993e68b31644
-SHA512: a296e5b70c16c48ba8825b73a04cb092da8d63fb4a6537bc2e25cbb83c82c57c9f920863a0a5b3d74788fa73bc13b8bddf7adb61c25a64a7184d40a6976e97b7
+Filename: ./debians/tvosblocker_1.0-13+debug_appletvos-arm64.deb
+Size: 654
+MD5sum: 464911137000e2f920375af9edc24741
+SHA1: 9de732e915cbd193c492f481e8794d67101cc233
+SHA256: 6fa68e558c1f14612c10843ac359ca3c6f582b1c17bbadb7ce8f05002752a1b4
+SHA512: b640e90c7b397922b7b12a9ec884dab37f7b724875a5187439912cb677a4c14a64cfc2c860650d7ca9022abfc2c9c03e267c7d12d65b10f050586bc917495cc1
 Description: block tvOS Updates & from Downloading updates for ios 17+
 Name: tvOS OTA Blocker 17+
 Author: Kevin Bradley & Sam Bingner
