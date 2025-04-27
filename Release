@@ -1,0 +1,37 @@
+Architectures: appletvos-arm64
+Codename: b4db1r3
+Components: main
+Date: Sun, 27 Apr 2025 16:10:55 +0000
+Description: b4db1r3's r3p0s1t07y
+Label: b4db1r3's r3p0
+Origin: b4db1r3's r3p0
+Suite: stable
+Version: 1.0
+MD5Sum:
+ a1f3b27f8c2daaa9a22e7aa00407bb98            24276 Packages
+ 8d80c1b5686fa2848962bd277f38711d             6858 Packages.bz2
+ 9b5548d61b614d4d88efe10796ec83d6             7039 Packages.gz
+ 05b3c80f3d49dbadbb2591e83f412c5b             6416 Packages.xz
+ ac40947f63159ddf49340d73e41ada26             6478 Packages.zst
+ 6aa6bbf17422b0298cb06cc27a4f3c4a              210 Release
+SHA1:
+ 1e29c645a9b83c5829e6f9ec0426775fff8a661f            24276 Packages
+ 29b4c9a5635542ba616ecf20174eba74b94fbb49             6858 Packages.bz2
+ 7843fe86ee9ae403f3eba4456f06e80454e62c8f             7039 Packages.gz
+ fc1e7a196503cfc37f6ac9cfb566dfafafc0c70c             6416 Packages.xz
+ d6c70d03aff237203a292d9f3b121b09e944fcc8             6478 Packages.zst
+ 804e109f2dee4fd0878bfa2e01b9bc53b5dac4cd              210 Release
+SHA256:
+ d04dae08ec778abc4a2084cd5d1f30af47d929497e85c3f50bb684e619263bc7            24276 Packages
+ c0e765392abc273449623b878052ea24cc02d6b000d63bbcfa3ae4cc4241bf16             6858 Packages.bz2
+ 57e369ad7cb13528298978b9d20998e0edb9d0ef26b63602e3bed00a51da3de9             7039 Packages.gz
+ 677d20ed774e77600ba27eef29c38b3eb44ff0df587f3e46e2f03fb43fd87b42             6416 Packages.xz
+ 9b306e3b1b639b2c73b9bd28856a13f1efcd550c814276702585a791941df346             6478 Packages.zst
+ 6c97790210ea67341a1c015b0fae8ae3186493291841a59340de522b9f68ee25              210 Release
+SHA512:
+ dfa8ea4bdcb613ea9dc56a87ae6d0ca39baf546b87e59274c553fd4c1b055bff6ab3b25ad3ee8e21cd5925c581f48f4868576a3d9d628b5c78eb44535921f370            24276 Packages
+ 070b42e2db0dd936d72cb9e955e21a102753833ef56007c1732c6c31d124c37318d156a6d300c79b295f5ab42691611330f3be840641e8f1ca3520e2ed356c91             6858 Packages.bz2
+ b40d3ce455f38511bf36e97027be59b8ab07cb9d812631487df1bbc15fe1c752fc09b5a1812a1d7de0830df98b1278e0bd9364b5e9176ba98f76a4b7b4042784             7039 Packages.gz
+ 0fd8ae1a8cc855fd89767991c9e34853902e132315211879e555b5c66343b195b57bc9ba92c19ab2b0892f4301e8bc0e0704ef00f6ab6be1a2a48094e218a37a             6416 Packages.xz
+ 56e0e13a4b4284de19fc688a8d8ed94fc2232cacb7a1b6642b9f65e4bdf7912e929281f2a61e12c498d071863b0a8032e00b60ad378ec45e8c4f3d44e999946c             6478 Packages.zst
+ ffbc97817842662949d6a420312242b2722fbecf437f1a0212aefdd6a28e5656de6f8d7098d805b6429f5fd95c81dfa105148a1e50120d0761fc2317430c2b62              210 Release
